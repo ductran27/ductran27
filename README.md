@@ -17,7 +17,7 @@
 
 ## About Me
 
-**ORISE Fellow** - **Hydrologist** at the **U.S. Department of Agriculture (USDA)** - Agricultural Research Service (ARS), focusing on **agricultural ecosystem** modeling for **water resources** and **food production** challenges in the western United States. Ph.D. in Civil Engineering from the University of Virginia, specializing in hydroinformatics, remote sensing, and Machine Learning / AI applications for climate impact assessment.
+**ORISE Fellow** - **Hydrologist** at the **U.S. Department of Agriculture (USDA)** - Agricultural Research Service (ARS), focusing on **agricultural ecosystem** modeling for **water resources** and **food production** challenges in the western United States. Ph.D. in Civil Engineering from the University of Virginia, specializing in Hydroinformatics, Remote Sensing, and Machine Learning / AI applications for climate impact assessment.
 
 ---
 
