@@ -17,11 +17,7 @@
 
 ## About Me
 
-<h4 align="center">
-
-**ORISE Fellow - Hydrologist** at the **U.S. Department of Agriculture (USDA) - Agricultural Research Service (ARS)**, focusing on agricultural ecosystem modeling for water resources and food production challenges in the western United States. Ph.D. in Civil Engineering from the **University of Virginia**, specializing in hydroinformatics, remote sensing, and **Machine Learning / AI** applications for climate impact assessment.
-
-</h4>
+ORISE Fellow - Hydrologist at the U.S. Department of Agriculture (USDA) - Agricultural Research Service (ARS), focusing on agricultural ecosystem modeling for water resources and food production challenges in the western United States. Ph.D. in Civil Engineering from the University of Virginia, specializing in hydroinformatics, remote sensing, and Machine Learning / AI applications for climate impact assessment.
 
 ---
 
@@ -127,7 +123,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&hide_rank=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&text_color=c9d1d9&langs_count=6&exclude_repo=PySWATCal,LIS-landsurface-toolkit,MODIS-LULC-analysis,NASA_PACE-ocean-health&layout=compact" alt="Most Used Languages" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&text_color=c9d1d9&langs_count=8&layout=compact" alt="Most Used Languages" height="165"/>
 </p>
 
 <p align="center">
