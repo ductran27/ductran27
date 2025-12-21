@@ -122,7 +122,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&include_all_commits=true&count_private=true&hide_rank=true" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&hide_rank=true" alt="GitHub Stats" height="165"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&text_color=c9d1d9&langs_count=6&exclude_repo=PySWATCal,LIS-landsurface-toolkit,MODIS-LULC-analysis,NASA_PACE-ocean-health&layout=compact" alt="Most Used Languages" height="165"/>
 </p>
 
@@ -134,11 +134,11 @@
 
 <div align="center">
 
-- 🏛️ **USDA-ARS**: Agricultural ecosystem modeling for water resources & food production in western US
-- 🌊 **National Water Center**: Summer Fellow for flood forecasting & water resource modeling (2024)
-- 🏆 **NASA/AGU**: Winner of Michael H. Freilich Student Data Visualization Competition
-- 🛰️ **Satellite Hydrology**: Building NASA SWOT, PACE & NOAA NWM analysis tools
-- 🔧 **Open Source**: Developing hydrological toolkits (LISF, PySWATCal, USGS Streamflow)
+🏛️ **USDA-ARS**: Agricultural ecosystem modeling for water resources & food production in western US<br>
+🌊 **National Water Center**: Summer Fellow for flood forecasting & water resource modeling (2024)<br>
+🏆 **NASA/AGU**: Winner of Michael H. Freilich Student Data Visualization Competition<br>
+🛰️ **Satellite Hydrology**: Building NASA SWOT, PACE & NOAA NWM analysis tools<br>
+🔧 **Open Source**: Developing hydrological toolkits (LISF, PySWATCal, USGS Streamflow)
 
 </div>
 
