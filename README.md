@@ -122,12 +122,12 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=0366D6&icon_color=0366D6&text_color=c9d1d9&include_all_commits=true&count_private=true&hide_rank=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=0366D6&text_color=c9d1d9&langs_count=6&exclude_repo=PySWATCal,LIS-landsurface-toolkit,MODIS-LULC-analysis,NASA_PACE-ocean-health&layout=compact" alt="Most Used Languages" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&include_all_commits=true&count_private=true&hide_rank=true" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&text_color=c9d1d9&langs_count=6&exclude_repo=PySWATCal,LIS-landsurface-toolkit,MODIS-LULC-analysis,NASA_PACE-ocean-health&layout=compact" alt="Most Used Languages" height="165"/>
 </p>
 
 <p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com/?user=ductran27&theme=tokyonight&hide_border=true&background=1a1b27&ring=0366D6&fire=C5A059&currStreakLabel=0366D6" alt="GitHub Streak"/></a>
+  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com/?user=ductran27&theme=tokyonight&hide_border=true&background=1a1b27&ring=a855f7&fire=a855f7&currStreakLabel=a855f7" alt="GitHub Streak"/></a>
 </p>
 
 ### 🚀 Recent Activity
