@@ -165,6 +165,7 @@
 [![Website](https://img.shields.io/badge/🌐_Website-ductran96.com-C5A059?style=for-the-badge)](https://ductran96.com)
 [![Google Scholar](https://img.shields.io/badge/📚_Scholar-Publications-4285F4?style=for-the-badge)](https://scholar.google.com/citations?user=tIcTCNgAAAAJ&hl=en&oi=ao)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thanh-nhan-duc-tran/)
+<br>
 [![Email](https://img.shields.io/badge/📧_Email-Contact-D14836?style=for-the-badge)](mailto:syu3cs@virginia.edu)
 [![ORCID](https://img.shields.io/badge/🆔_ORCID-Profile-A6CE39?style=for-the-badge)](https://orcid.org/0000-0001-8478-5893)
 
