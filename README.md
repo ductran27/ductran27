@@ -108,10 +108,10 @@
     </td>
   </tr>
   <tr>
-    <td align="center"><sub><b>Scholarly Impact</b></sub></td>
-    <td align="center"><sub><b>Total Citations</b></sub></td>
-    <td align="center"><sub><b>Q1 Journals</b></sub></td>
-    <td align="center"><sub><b>High-Impact Papers</b></sub></td>
+    <td align="center"><b>Scholarly Impact</b></td>
+    <td align="center"><b>Total Citations</b></td>
+    <td align="center"><b>Q1 Journals</b></td>
+    <td align="center"><b>High-Impact Papers</b></td>
   </tr>
 </table>
 
@@ -128,45 +128,49 @@
 <table>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/Publications-30+-0366D6?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Publications"/>
+      <img src="https://img.shields.io/badge/Publications-30+-0366D6?style=for-the-badge&logoColor=white" alt="Publications"/>
       <br/>
-      <sub><b>Q1 Journals</b></sub>
+      <b>Q1 Journals</b>
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/Total_Commits-1,000+-0366D6?style=for-the-badge&logo=github&logoColor=white" alt="Commits"/>
       <br/>
-      <sub><b>Contributions</b></sub>
+      <b>Contributions</b>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/Awards-10+-0366D6?style=for-the-badge&logo=trophy&logoColor=white" alt="Awards"/>
+      <img src="https://img.shields.io/badge/Awards-10+-0366D6?style=for-the-badge&logoColor=white" alt="Awards"/>
       <br/>
-      <sub><b>Scholarships</b></sub>
+      <b>Scholarships</b>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/h--index-19-0366D6?style=for-the-badge&logo=google-scholar&logoColor=white" alt="h-index"/>
+      <img src="https://img.shields.io/badge/h--index-19-0366D6?style=for-the-badge&logoColor=white" alt="h-index"/>
       <br/>
-      <sub><b>Citations: 1,330+</b></sub>
+      <b>Citations: 1,330+</b>
     </td>
   </tr>
 </table>
 
 ### 💻 Key Contributions
 
-- 🌊 **Hydrological Research**: NASA, NOAA, USGS water resources tools & analysis
-- 🤖 **Machine Learning / AI**: Deep learning for climate impact assessment
-- 🛰️ **Remote Sensing**: Google Earth Engine, satellite data processing
-- 🏆 **Awards**: NASA/AGU Data Viz Competition Winner, NOAA Innovators Fellow
-- 📚 **Publications**: 30+ papers in Q1 journals (h-index: 19)
+🌊 **Hydrological Research**: NASA, NOAA, USGS water resources tools & analysis<br/>
+🤖 **Machine Learning / AI**: Deep learning for climate impact assessment<br/>
+🛰️ **Remote Sensing**: Google Earth Engine, satellite data processing<br/>
+🏆 **Awards**: NASA/AGU Data Viz Competition Winner, NOAA Innovators Fellow<br/>
+📚 **Publications**: 30+ papers in Q1 journals (h-index: 19)
 
 </div>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=0366D6&icon_color=0366D6&text_color=c9d1d9&hide_rank=true" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=0366D6&text_color=c9d1d9&langs_count=8" alt="Top Languages" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=0366D6&icon_color=0366D6&text_color=c9d1d9&hide_rank=true&custom_title=GitHub%20Activity&hide=stars,issues&show=prs_merged,prs_merged_percentage" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=0366D6&text_color=c9d1d9&langs_count=6" alt="Top Languages" height="180"/>
 </p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ductran27&theme=tokyonight&hide_border=true&background=1a1b27&ring=0366D6&fire=C5A059&currStreakLabel=0366D6" alt="GitHub Streak"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ductran27&theme=tokyo-night&hide_border=true&bg_color=1a1b27&color=0366D6&line=C5A059&point=0366D6" alt="Activity Graph" width="100%"/>
 </p>
 
 ---
@@ -190,10 +194,10 @@
 <div align="center">
 
 [![Website](https://img.shields.io/badge/🌐_Website-ductran96.com-C5A059?style=for-the-badge)](https://ductran96.com)
-[![Google Scholar](https://img.shields.io/badge/📚_Scholar-Publications-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=tIcTCNgAAAAJ&hl=en&oi=ao)
+[![Google Scholar](https://img.shields.io/badge/📚_Scholar-Publications-4285F4?style=for-the-badge)](https://scholar.google.com/citations?user=tIcTCNgAAAAJ&hl=en&oi=ao)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thanh-nhan-duc-tran/)
-[![Email](https://img.shields.io/badge/📧_Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:syu3cs@virginia.edu)
-[![ORCID](https://img.shields.io/badge/🆔_ORCID-Profile-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0000-0001-8478-5893)
+[![Email](https://img.shields.io/badge/📧_Email-Contact-D14836?style=for-the-badge)](mailto:syu3cs@virginia.edu)
+[![ORCID](https://img.shields.io/badge/🆔_ORCID-Profile-A6CE39?style=for-the-badge)](https://orcid.org/0000-0001-8478-5893)
 
 </div>
 
