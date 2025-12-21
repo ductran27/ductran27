@@ -42,12 +42,12 @@
 ### Machine Learning & Data Science
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![CNN](https://img.shields.io/badge/CNN-FF6F00?style=for-the-badge&logoColor=white)
-![LSTM](https://img.shields.io/badge/LSTM-EE4C2C?style=for-the-badge&logoColor=white)
+![CNN](https://img.shields.io/badge/CNN-FF6F00?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxyZWN0IHg9IjIiIHk9IjIiIHdpZHRoPSI1IiBoZWlnaHQ9IjUiIHJ4PSIxIi8+PHJlY3QgeD0iOS41IiB5PSIyIiB3aWR0aD0iNSIgaGVpZ2h0PSI1IiByeD0iMSIvPjxyZWN0IHg9IjE3IiB5PSIyIiB3aWR0aD0iNSIgaGVpZ2h0PSI1IiByeD0iMSIvPjxyZWN0IHg9IjIiIHk9IjkuNSIgd2lkdGg9IjUiIGhlaWdodD0iNSIgcng9IjEiLz48cmVjdCB4PSI5LjUiIHk9IjkuNSIgd2lkdGg9IjUiIGhlaWdodD0iNSIgcng9IjEiLz48cmVjdCB4PSIxNyIgeT0iOS41IiB3aWR0aD0iNSIgaGVpZ2h0PSI1IiByeD0iMSIvPjxyZWN0IHg9IjIiIHk9IjE3IiB3aWR0aD0iNSIgaGVpZ2h0PSI1IiByeD0iMSIvPjxyZWN0IHg9IjkuNSIgeT0iMTciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiIHJ4PSIxIi8+PHJlY3QgeD0iMTciIHk9IjE3IiB3aWR0aD0iNSIgaGVpZ2h0PSI1IiByeD0iMSIvPjwvc3ZnPg==)
+![LSTM](https://img.shields.io/badge/LSTM-EE4C2C?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxjaXJjbGUgY3g9IjQiIGN5PSIxMiIgcj0iMi41Ii8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMi41Ii8+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMi41Ii8+PHBhdGggZD0iTTYuNSAxMmgzTTE0LjUgMTJoMyIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48cGF0aCBkPSJNMTIgOS41VjVhMiAyIDAgMDEyLTJoNGEyIDIgMCAwMTIgMnY0IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge&logo=xgboost&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwb2x5Z29uIHBvaW50cz0iMTIsMiA0LDcgMTIsMTIgMjAsNyIvPjxwYXRoIGQ9Ik00IDExbDggNSA4LTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS41Ii8+PHBhdGggZD0iTTQgMTVsOCA1IDgtNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48L3N2Zz4=)
 
 ### Hydrological Modeling
 ![SWAT/SWAT+](https://img.shields.io/badge/SWAT%2FSWAT+-2E7D32?style=for-the-badge&logoColor=white)
