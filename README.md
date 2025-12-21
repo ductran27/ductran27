@@ -7,10 +7,10 @@
 
 <p align="center">
   <a href="https://ductran96.com"><img src="https://img.shields.io/badge/Website-ductran96.com-C5A059?style=for-the-badge&logo=safari&logoColor=white" alt="Website"/></a>
-  <a href="mailto:dt5zp@virginia.edu"><img src="https://img.shields.io/badge/Email-dt5zp@virginia.edu-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://linkedin.com/in/thanh-nhan-duc-tran"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://scholar.google.com/citations?user=tIcTCNgAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"/></a>
-  <a href="https://orcid.org/0000-0002-4096-9080"><img src="https://img.shields.io/badge/ORCID-0000--0002--4096--9080-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/></a>
+  <a href="mailto:syu3cs@virginia.edu"><img src="https://img.shields.io/badge/Email-syu3cs@virginia.edu-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/thanh-nhan-duc-tran/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://scholar.google.com/citations?user=tIcTCNgAAAAJ&hl=en&oi=ao"><img src="https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"/></a>
+  <a href="https://orcid.org/0000-0001-8478-5893"><img src="https://img.shields.io/badge/ORCID-0000--0001--8478--5893-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/></a>
 </p>
 
 ---
@@ -25,7 +25,6 @@ ORISE Fellow at **USDA-ARS** focusing on agricultural ecosystem modeling for wat
 
 ### Programming Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
@@ -45,7 +44,7 @@ ORISE Fellow at **USDA-ARS** focusing on agricultural ecosystem modeling for wat
 ![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge&logo=xgboost&logoColor=white)
 
 ### Hydrological Modeling
-![SWAT](https://img.shields.io/badge/SWAT-2E7D32?style=for-the-badge&logoColor=white)
+![SWAT/SWAT+](https://img.shields.io/badge/SWAT%2FSWAT+-2E7D32?style=for-the-badge&logoColor=white)
 ![HEC-RAS](https://img.shields.io/badge/HEC--RAS-1565C0?style=for-the-badge&logoColor=white)
 ![NASA LIS](https://img.shields.io/badge/NASA_LIS-E53935?style=for-the-badge&logo=nasa&logoColor=white)
 ![NOAA NWM](https://img.shields.io/badge/NOAA_NWM-0277BD?style=for-the-badge&logoColor=white)
@@ -73,31 +72,37 @@ ORISE Fellow at **USDA-ARS** focusing on agricultural ecosystem modeling for wat
 
 ## Research Domains
 
-![Hydroinformatics](https://img.shields.io/badge/Hydroinformatics-0288D1?style=flat-square)
-![Remote Sensing](https://img.shields.io/badge/Remote_Sensing-7B1FA2?style=flat-square)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=flat-square)
-![Climate Change](https://img.shields.io/badge/Climate_Change-43A047?style=flat-square)
-![Flood Forecasting](https://img.shields.io/badge/Flood_Forecasting-1565C0?style=flat-square)
-![Water Resources](https://img.shields.io/badge/Water_Resources-00838F?style=flat-square)
-![Agricultural Ecosystems](https://img.shields.io/badge/Agricultural_Ecosystems-558B2F?style=flat-square)
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║  RESEARCH FOCUS                                                      ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  > Hydroinformatics          > Remote Sensing                        ║
+║  > Machine Learning          > Climate Change                        ║
+║  > Flood Forecasting         > Water Resources                       ║
+║  > Agricultural Ecosystems                                           ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
 ---
 
 ## Academic Metrics
 
-<p align="center">
-  <img src="https://img.shields.io/badge/h--index-19-blue?style=for-the-badge" alt="h-index"/>
-  <img src="https://img.shields.io/badge/Citations-1,330+-green?style=for-the-badge" alt="Citations"/>
-  <img src="https://img.shields.io/badge/Publications-30+-orange?style=for-the-badge" alt="Publications"/>
-  <img src="https://img.shields.io/badge/i10--index-25-purple?style=for-the-badge" alt="i10-index"/>
-</p>
+```python
+# Google Scholar Statistics
+metrics = {
+    "h_index":      19,
+    "citations":    1330,   # and counting
+    "publications": 30,     # Q1 journals
+    "i10_index":    25
+}
+```
 
 ---
 
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ductran27&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ductran27&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true" alt="GitHub Stats" height="170"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" height="170"/>
 </p>
 
@@ -109,22 +114,48 @@ ORISE Fellow at **USDA-ARS** focusing on agricultural ecosystem modeling for wat
 
 ## Education
 
-| Degree | Institution | Focus |
-|:-------|:------------|:------|
-| **Ph.D.** Civil Engineering | University of Virginia | Hydroinformatics & Remote Sensing |
-| **M.Sc.** Hydroinformatics & Water Management | Erasmus Mundus (France, UK, Poland, Germany, Spain) | Water Resources Engineering |
-| **B.Eng.** Hydraulic Engineering | University of Danang | Water Resources |
+```bash
+$ cat ~/education/degrees.json
+```
+
+```json
+[
+  {
+    "degree": "Ph.D.",
+    "field": "Civil Engineering",
+    "institution": "University of Virginia",
+    "focus": "Hydroinformatics & Remote Sensing"
+  },
+  {
+    "degree": "M.Sc.",
+    "field": "Hydroinformatics",
+    "institution": "Erasmus Mundus",
+    "countries": ["France", "UK", "Poland", "Germany", "Spain"],
+    "focus": "Hydroinformatics & Water Resources Management"
+  },
+  {
+    "degree": "B.Eng.",
+    "field": "Hydraulic Engineering",
+    "institution": "University of Danang"
+  }
+]
+```
 
 ---
 
 ## Connect
 
-<p align="center">
-  <a href="https://ductran96.com"><img src="https://img.shields.io/badge/Website-ductran96.com-C5A059?style=for-the-badge&logo=safari&logoColor=white" alt="Website"/></a>
-  <a href="https://scholar.google.com/citations?user=tIcTCNgAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"/></a>
-  <a href="https://linkedin.com/in/thanh-nhan-duc-tran"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:dt5zp@virginia.edu"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-</p>
+```bash
+$ ./contact.sh --info
+```
+
+```yaml
+website:  https://ductran96.com
+scholar:  https://scholar.google.com/citations?user=tIcTCNgAAAAJ&hl=en&oi=ao
+linkedin: https://www.linkedin.com/in/thanh-nhan-duc-tran/
+email:    syu3cs@virginia.edu
+orcid:    https://orcid.org/0000-0001-8478-5893
+```
 
 ---
 
