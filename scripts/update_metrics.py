@@ -66,14 +66,14 @@ def update_readme(metrics: dict) -> bool:
                 content
             )
 
-        # Update Citations
+        # Update Citations (exact number, no +)
         if "citations" in metrics:
             citations = metrics["citations"].replace(",", "")
             # Format with comma for thousands
             citations_formatted = f"{int(citations):,}"
             content = re.sub(
                 r'(Citations-)[0-9,]+\+?(-green)',
-                f'\\g<1>{citations_formatted}+\\2',
+                f'\\g<1>{citations_formatted}\\2',
                 content
             )
 
