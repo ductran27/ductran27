@@ -1,0 +1,8 @@
+#!/bin/bash
+# Standardize commit message format
+
+f=$1
+sed -i.bak -E '/Co-Authored-By/d' "$f"
+sed -i.bak '/Generated with/d' "$f"
+rm -f "$f.bak"
+exit 0
