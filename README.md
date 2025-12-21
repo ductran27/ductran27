@@ -90,7 +90,7 @@
 ![Remote Sensing](https://img.shields.io/badge/🛰️_Remote_Sensing-7B1FA2?style=for-the-badge&logoColor=white)
 ![ML/AI](https://img.shields.io/badge/🤖_Machine_Learning_/_AI-FF6F00?style=for-the-badge&logoColor=white)
 ![Climate Change](https://img.shields.io/badge/🌡️_Climate_Change-43A047?style=for-the-badge&logoColor=white)
-
+<br>
 ![Flood Forecasting](https://img.shields.io/badge/🌊_Flood_Forecasting-1565C0?style=for-the-badge&logoColor=white)
 ![Water Resources](https://img.shields.io/badge/💧_Water_Resources-00838F?style=for-the-badge&logoColor=white)
 ![Agricultural Ecosystems](https://img.shields.io/badge/🌾_Agricultural_Ecosystems-558B2F?style=for-the-badge&logoColor=white)
