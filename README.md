@@ -2,7 +2,7 @@
 <h3 align="center">Ph.D. | ORISE Fellow @ USDA-ARS</h3>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=0366D6&center=true&vCenter=true&width=600&lines=Hydroinformatics+Researcher;Remote+Sensing+Scientist;Machine+Learning+Engineer;Water+Resources+Modeler" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=0366D6&center=true&vCenter=true&width=600&lines=Hydroinformatics+Researcher;Remote+Sensing+Scientist;Machine+Learning+%2F+AI+Scientist;Water+Resources+Modeler" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 ## About Me
 
-ORISE Fellow at **USDA-ARS** focusing on agricultural ecosystem modeling for water resources and food production challenges in the western United States. Ph.D. in Civil Engineering from the **University of Virginia**, specializing in hydroinformatics, remote sensing, and machine learning applications for climate impact assessment.
+**ORISE Fellow - Hydrologist** at the **U.S. Department of Agriculture (USDA) - Agricultural Research Service (ARS)**, focusing on agricultural ecosystem modeling for water resources and food production challenges in the western United States. Ph.D. in Civil Engineering from the **University of Virginia**, specializing in hydroinformatics, remote sensing, and **Machine Learning / AI** applications for climate impact assessment.
 
 ---
 
@@ -46,12 +46,13 @@ ORISE Fellow at **USDA-ARS** focusing on agricultural ecosystem modeling for wat
 ### Hydrological Modeling
 ![SWAT/SWAT+](https://img.shields.io/badge/SWAT%2FSWAT+-2E7D32?style=for-the-badge&logoColor=white)
 ![HEC-RAS](https://img.shields.io/badge/HEC--RAS-1565C0?style=for-the-badge&logoColor=white)
-![NASA LIS](https://img.shields.io/badge/NASA_LIS-E53935?style=for-the-badge&logo=nasa&logoColor=white)
+![NASA LISF](https://img.shields.io/badge/NASA_LISF-E53935?style=for-the-badge&logo=nasa&logoColor=white)
 ![NOAA NWM](https://img.shields.io/badge/NOAA_NWM-0277BD?style=for-the-badge&logoColor=white)
 
 ### Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
@@ -70,92 +71,131 @@ ORISE Fellow at **USDA-ARS** focusing on agricultural ecosystem modeling for wat
 
 ---
 
-## Research Domains
+## 🔬 Research Domains
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  RESEARCH FOCUS                                                      ║
-╠══════════════════════════════════════════════════════════════════════╣
-║  > Hydroinformatics          > Remote Sensing                        ║
-║  > Machine Learning          > Climate Change                        ║
-║  > Flood Forecasting         > Water Resources                       ║
-║  > Agricultural Ecosystems                                           ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+<div align="center">
 
----
+![Hydroinformatics](https://img.shields.io/badge/🌊_Hydroinformatics-0288D1?style=for-the-badge&logoColor=white)
+![Remote Sensing](https://img.shields.io/badge/🛰️_Remote_Sensing-7B1FA2?style=for-the-badge&logoColor=white)
+![ML/AI](https://img.shields.io/badge/🤖_Machine_Learning_/_AI-FF6F00?style=for-the-badge&logoColor=white)
+![Climate Change](https://img.shields.io/badge/🌡️_Climate_Change-43A047?style=for-the-badge&logoColor=white)
 
-## Academic Metrics
+![Flood Forecasting](https://img.shields.io/badge/🌊_Flood_Forecasting-1565C0?style=for-the-badge&logoColor=white)
+![Water Resources](https://img.shields.io/badge/💧_Water_Resources-00838F?style=for-the-badge&logoColor=white)
+![Agricultural Ecosystems](https://img.shields.io/badge/🌾_Agricultural_Ecosystems-558B2F?style=for-the-badge&logoColor=white)
 
-```python
-# Google Scholar Statistics
-metrics = {
-    "h_index":      19,
-    "citations":    1330,   # and counting
-    "publications": 30,     # Q1 journals
-    "i10_index":    25
-}
-```
+</div>
 
 ---
 
-## GitHub Stats
+## 📈 Academic Metrics
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/h--index-19-blue?style=for-the-badge" alt="h-index"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Citations-1,330+-green?style=for-the-badge" alt="Citations"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Publications-30+-orange?style=for-the-badge" alt="Publications"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/i10--index-25-purple?style=for-the-badge" alt="i10-index"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Scholarly Impact</sub></td>
+    <td align="center"><sub>Total Citations</sub></td>
+    <td align="center"><sub>Q1 Journals</sub></td>
+    <td align="center"><sub>High-Impact Papers</sub></td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+## 📊 GitHub Stats & Contributions
+
+<div align="center">
+
+### 🎯 Contribution Highlights
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Publications-30+-0366D6?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Publications"/>
+      <br/>
+      <sub><b>Q1 Journals</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Total_Commits-1,000+-0366D6?style=for-the-badge&logo=github&logoColor=white" alt="Commits"/>
+      <br/>
+      <sub><b>Contributions</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Awards-10+-0366D6?style=for-the-badge&logo=trophy&logoColor=white" alt="Awards"/>
+      <br/>
+      <sub><b>Scholarships</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/h--index-19-0366D6?style=for-the-badge&logo=google-scholar&logoColor=white" alt="h-index"/>
+      <br/>
+      <sub><b>Citations: 1,330+</b></sub>
+    </td>
+  </tr>
+</table>
+
+### 💻 Key Contributions
+
+- 🌊 **Hydrological Research**: NASA, NOAA, USGS water resources tools & analysis
+- 🤖 **Machine Learning / AI**: Deep learning for climate impact assessment
+- 🛰️ **Remote Sensing**: Google Earth Engine, satellite data processing
+- 🏆 **Awards**: NASA/AGU Data Viz Competition Winner, NOAA Innovators Fellow
+- 📚 **Publications**: 30+ papers in Q1 journals (h-index: 19)
+
+</div>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ductran27&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=0366D6&icon_color=0366D6&text_color=c9d1d9&hide_rank=true" alt="GitHub Stats" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=0366D6&text_color=c9d1d9&langs_count=8" alt="Top Languages" height="170"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ductran27&theme=github-dark-blue&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ductran27&theme=tokyonight&hide_border=true&background=1a1b27&ring=0366D6&fire=C5A059&currStreakLabel=0366D6" alt="GitHub Streak"/>
 </p>
 
 ---
 
-## Education
+## 🎓 Education
 
-```bash
-$ cat ~/education/degrees.json
-```
+<div align="center">
 
-```json
-[
-  {
-    "degree": "Ph.D.",
-    "field": "Civil Engineering",
-    "institution": "University of Virginia",
-    "focus": "Hydroinformatics & Remote Sensing"
-  },
-  {
-    "degree": "M.Sc.",
-    "field": "Hydroinformatics",
-    "institution": "Erasmus Mundus",
-    "countries": ["France", "UK", "Poland", "Germany", "Spain"],
-    "focus": "Hydroinformatics & Water Resources Management"
-  },
-  {
-    "degree": "B.Eng.",
-    "field": "Hydraulic Engineering",
-    "institution": "University of Danang"
-  }
-]
-```
+| Degree | Institution | Focus |
+|:------:|:-----------:|:-----:|
+| 🎓 **Ph.D.** Civil Engineering | 🏛️ University of Virginia | Hydroinformatics & Remote Sensing |
+| 🎓 **M.Sc.** Hydroinformatics | 🌍 Erasmus Mundus (5 Countries) | Hydroinformatics & Water Resources Management |
+| 🎓 **B.Eng.** Hydraulic Engineering | 🏫 University of Danang | Water Resources Engineering |
+
+</div>
 
 ---
 
-## Connect
+## 🤝 Connect
 
-```bash
-$ ./contact.sh --info
-```
+<div align="center">
 
-```yaml
-website:  https://ductran96.com
-scholar:  https://scholar.google.com/citations?user=tIcTCNgAAAAJ&hl=en&oi=ao
-linkedin: https://www.linkedin.com/in/thanh-nhan-duc-tran/
-email:    syu3cs@virginia.edu
-orcid:    https://orcid.org/0000-0001-8478-5893
-```
+[![Website](https://img.shields.io/badge/🌐_Website-ductran96.com-C5A059?style=for-the-badge)](https://ductran96.com)
+[![Google Scholar](https://img.shields.io/badge/📚_Scholar-Publications-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=tIcTCNgAAAAJ&hl=en&oi=ao)
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thanh-nhan-duc-tran/)
+[![Email](https://img.shields.io/badge/📧_Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:syu3cs@virginia.edu)
+[![ORCID](https://img.shields.io/badge/🆔_ORCID-Profile-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0000-0001-8478-5893)
+
+</div>
 
 ---
 
