@@ -26,7 +26,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install scholarly
+          pip install scholarly free-proxy
 
       - name: Fetch and update metrics
         run: python scripts/update_metrics.py
