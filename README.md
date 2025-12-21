@@ -2,7 +2,7 @@
 <h3 align="center">Ph.D. | ORISE Fellow @ USDA-ARS</h3>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=0366D6&center=true&vCenter=true&width=600&lines=Hydroinformatics+Researcher;Remote+Sensing+Scientist;Machine+Learning+%2F+AI+Scientist;Water+Resources+Modeler" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=500&color=A855F7&center=true&vCenter=true&width=600&lines=Hydroinformatics+Researcher;Remote+Sensing+Scientist;Machine+Learning+%2F+AI+Scientist;Water+Resources+Modeler" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 ## About Me
 
-ORISE Fellow - Hydrologist at the U.S. Department of Agriculture (USDA) - Agricultural Research Service (ARS), focusing on agricultural ecosystem modeling for water resources and food production challenges in the western United States. Ph.D. in Civil Engineering from the University of Virginia, specializing in hydroinformatics, remote sensing, and Machine Learning / AI applications for climate impact assessment.
+### ORISE Fellow - Hydrologist at the U.S. Department of Agriculture (USDA) - Agricultural Research Service (ARS), focusing on agricultural ecosystem modeling for water resources and food production challenges in the western United States. Ph.D. in Civil Engineering from the University of Virginia, specializing in hydroinformatics, remote sensing, and Machine Learning / AI applications for climate impact assessment.
 
 ---
 
@@ -25,19 +25,24 @@ ORISE Fellow - Hydrologist at the U.S. Department of Agriculture (USDA) - Agricu
 
 ### Programming Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 
 ### GIS & Remote Sensing
 ![Google Earth Engine](https://img.shields.io/badge/Google_Earth_Engine-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![geemap](https://img.shields.io/badge/geemap-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![QGIS](https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=qgis&logoColor=white)
 ![ArcGIS](https://img.shields.io/badge/ArcGIS-2C7AC3?style=for-the-badge&logo=arcgis&logoColor=white)
 ![GDAL](https://img.shields.io/badge/GDAL-5CAE58?style=for-the-badge&logo=gdal&logoColor=white)
+![Rasterio](https://img.shields.io/badge/Rasterio-43B02A?style=for-the-badge&logo=python&logoColor=white)
 
 ### Machine Learning & Data Science
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![CNN](https://img.shields.io/badge/CNN-FF6F00?style=for-the-badge&logoColor=white)
+![LSTM](https://img.shields.io/badge/LSTM-EE4C2C?style=for-the-badge&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
@@ -46,8 +51,9 @@ ORISE Fellow - Hydrologist at the U.S. Department of Agriculture (USDA) - Agricu
 ### Hydrological Modeling
 ![SWAT/SWAT+](https://img.shields.io/badge/SWAT%2FSWAT+-2E7D32?style=for-the-badge&logoColor=white)
 ![HEC-RAS](https://img.shields.io/badge/HEC--RAS-1565C0?style=for-the-badge&logoColor=white)
+![HEC-HMS](https://img.shields.io/badge/HEC--HMS-1976D2?style=for-the-badge&logoColor=white)
 ![NASA LISF](https://img.shields.io/badge/NASA_LISF-E53935?style=for-the-badge&logo=nasa&logoColor=white)
-![NOAA NWM](https://img.shields.io/badge/NOAA_NWM-0277BD?style=for-the-badge&logoColor=white)
+![HAND (NOAA NWM)](https://img.shields.io/badge/HAND_(NOAA_NWM)-0277BD?style=for-the-badge&logoColor=white)
 
 ### Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
@@ -55,6 +61,10 @@ ORISE Fellow - Hydrologist at the U.S. Department of Agriculture (USDA) - Agricu
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### Databases
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ---
 
@@ -122,8 +132,8 @@ ORISE Fellow - Hydrologist at the U.S. Department of Agriculture (USDA) - Agricu
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&hide_rank=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&text_color=c9d1d9&langs_count=8&layout=compact" alt="Most Used Languages" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&hide_rank=true" alt="GitHub Stats" height="195"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&text_color=c9d1d9&langs_count=8&layout=compact" alt="Most Used Languages" height="195"/>
 </p>
 
 <p align="center">
