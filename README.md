@@ -11,6 +11,7 @@
   <a href="https://www.linkedin.com/in/thanh-nhan-duc-tran/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://scholar.google.com/citations?user=tIcTCNgAAAAJ&hl=en&oi=ao"><img src="https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"/></a>
   <a href="https://orcid.org/0000-0001-8478-5893"><img src="https://img.shields.io/badge/ORCID-0000--0001--8478--5893-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/></a>
+  <img src="https://img.shields.io/badge/Location-Texas,_United_States-E34C26?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"/>
 </p>
 
 ---
