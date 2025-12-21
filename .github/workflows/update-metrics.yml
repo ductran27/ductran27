@@ -36,9 +36,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md
-          git diff --staged --quiet || git commit -m "Update academic metrics
-
-          Automatically updated from Google Scholar
-
-          Co-Authored-By: github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          git diff --staged --quiet || git commit -m "Update academic metrics"
           git push
