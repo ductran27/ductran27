@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Duc Tran</h1>
-<h3 align="center">Ph.D. | <img src="https://img.shields.io/badge/ORISE_Fellow-C5A059?style=flat-square" alt="ORISE Fellow"/> @ USDA-ARS</h3>
+<h3 align="center">Ph.D. | ORISE Fellow @ USDA-ARS</h3>
 
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=500&duration=2000&color=A855F7&center=true&vCenter=true&width=600&lines=Hydroinformatics+Researcher;Remote+Sensing+Scientist;Machine+Learning+%2F+AI+Scientist;Water+Resources+Modeler" alt="Typing SVG" /></a>
