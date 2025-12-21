@@ -103,10 +103,10 @@
 ## 📈 Academic Metrics
 
 <p align="center">
-  <img src="https://img.shields.io/badge/H--Index-19-blue?style=for-the-badge" alt="H-Index"/>
+  <img src="https://img.shields.io/badge/H--Index-0-blue?style=for-the-badge" alt="H-Index"/>
   <img src="https://img.shields.io/badge/Citations-1,334-green?style=for-the-badge" alt="Citations"/>
-  <img src="https://img.shields.io/badge/Publications-0+-orange?style=for-the-badge" alt="Publications"/>
-  <img src="https://img.shields.io/badge/i10--Index-25-a855f7?style=for-the-badge" alt="i10-Index"/>
+  <img src="https://img.shields.io/badge/Publications-30+-orange?style=for-the-badge" alt="Publications"/>
+  <img src="https://img.shields.io/badge/i10--Index-0-a855f7?style=for-the-badge" alt="i10-Index"/>
 </p>
 
 ---
