@@ -26,7 +26,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4
+          pip install scholarly
 
       - name: Fetch and update metrics
         run: python scripts/update_metrics.py
