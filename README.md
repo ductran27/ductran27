@@ -29,7 +29,7 @@
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yIDIwbDQtOCAzIDQgNS0xMCA4IDE0SDJ6Ii8+PHBhdGggZD0iTTkgMTZsLTMtNCAyLTQgNSAxMC00LTJ6IiBmaWxsLW9wYWNpdHk9IjAuNyIvPjwvc3ZnPg==)
 
 ### GIS & Remote Sensing
 ![Google Earth Engine](https://img.shields.io/badge/Google_Earth_Engine-4285F4?style=for-the-badge&logo=google&logoColor=white)
@@ -51,8 +51,8 @@
 
 ### Hydrological Modeling
 ![SWAT/SWAT+](https://img.shields.io/badge/SWAT%2FSWAT+-2E7D32?style=for-the-badge&logoColor=white)
-![HEC-RAS](https://img.shields.io/badge/HEC--RAS-1565C0?style=for-the-badge&logoColor=white)
-![HEC-HMS](https://img.shields.io/badge/HEC--HMS-1976D2?style=for-the-badge&logoColor=white)
+![HEC-RAS](https://img.shields.io/badge/HEC--RAS-1565C0?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yIDEyYzIuNS0yIDUtMiA3LjUgMHM1IDIgNy41IDBjMi41LTIgNS0yIDcgMHYzYy0yIDItNC41IDItNyAwcy01LTItNy41IDBjLTIuNSAyLTUgMi03LjUgMHYtM3oiLz48cGF0aCBkPSJNMiAxN2MyLjUtMiA1LTIgNy41IDBzNSAyIDcuNSAwYzIuNS0yIDUtMiA3IDB2M2MtMiAyLTQuNSAyLTcgMHMtNS0yLTcuNSAwYy0yLjUgMi01IDItNy41IDB2LTN6IiBmaWxsLW9wYWNpdHk9IjAuNiIvPjxwYXRoIGQ9Ik00IDR2NmgxNlY0TDEyIDhMNCA0eiIvPjwvc3ZnPg==)
+![HEC-HMS](https://img.shields.io/badge/HEC--HMS-1976D2?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyYy0zIDMtNiA4LTYgMTIgMCAzLjMxIDIuNjkgNiA2IDZzNi0yLjY5IDYtNmMwLTQtMy05LTYtMTJ6Ii8+PHBhdGggZD0iTTQgNGwyIDJNNCA4bDIgMk04IDRsMiAyIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIgZmlsbD0ibm9uZSIvPjxjaXJjbGUgY3g9IjE4IiBjeT0iNSIgcj0iMiIvPjxjaXJjbGUgY3g9IjIwIiBjeT0iOSIgcj0iMS41Ii8+PC9zdmc+)
 ![NASA LISF](https://img.shields.io/badge/NASA_LISF-E53935?style=for-the-badge&logo=nasa&logoColor=white)
 ![HAND (NOAA NWM)](https://img.shields.io/badge/HAND_(NOAA_NWM)-0277BD?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMSAySDNjLTEuMSAwLTIgLjktMiAydjEyYzAgMS4xLjkgMiAyIDJoN3YySDh2Mmg4di0yaC0ydi0yaDdjMS4xIDAgMi0uOSAyLTJWNGMwLTEuMS0uOS0yLTItMnptMCAxNEgzVjRoMTh2MTJ6Ii8+PC9zdmc+)
 
