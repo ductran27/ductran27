@@ -144,9 +144,9 @@
 
 | Degree | Institution | Focus |
 |:------:|:-----------:|:-----:|
-| 🎓 **Ph.D.** Civil Engineering | 🏛️ University of Virginia | Hydroinformatics & Remote Sensing |
-| 🎓 **M.Sc.** Hydroinformatics | 🌍 Erasmus Mundus (5 Countries) | Hydroinformatics & Water Resources Management |
-| 🎓 **B.Eng.** Hydraulic Engineering | 🏫 University of Danang | Water Resources Engineering |
+| ③ **Ph.D.** Civil Engineering | 🏛️ University of Virginia | Hydroinformatics & Remote Sensing |
+| ② **M.Sc.** Hydroinformatics | 🌍 Erasmus Mundus (5 Countries) | Hydroinformatics & Water Resources Management |
+| ① **B.Eng.** Hydraulic Engineering | 🏫 University of Danang | Water Resources Engineering |
 
 </div>
 
