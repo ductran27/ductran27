@@ -1,0 +1,44 @@
+name: Update Academic Metrics
+
+on:
+  schedule:
+    # Runs at 6am, 12pm, 6pm, and 12am UTC
+    - cron: '0 0 * * *'   # 12am UTC
+    - cron: '0 6 * * *'   # 6am UTC
+    - cron: '0 12 * * *'  # 12pm UTC
+    - cron: '0 18 * * *'  # 6pm UTC
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Fetch and update metrics
+        run: python scripts/update_metrics.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --staged --quiet || git commit -m "Update academic metrics
+
+          Automatically updated from Google Scholar
+
+          Co-Authored-By: github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          git push
