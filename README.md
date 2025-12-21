@@ -126,7 +126,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=0366D6&text_color=c9d1d9&langs_count=8" alt="Most Used Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=0366D6&text_color=c9d1d9&langs_count=8" alt="Most Used Languages"/>
 </p>
 
 <p align="center">
