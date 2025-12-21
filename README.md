@@ -119,59 +119,28 @@
 
 ---
 
-## 📊 GitHub Stats & Contributions
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=0366D6&icon_color=0366D6&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=0366D6&text_color=c9d1d9&langs_count=8" alt="Top Languages" height="180"/>
+</p>
+
+<p align="center">
+  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com/?user=ductran27&theme=tokyonight&hide_border=true&background=1a1b27&ring=0366D6&fire=C5A059&currStreakLabel=0366D6" alt="GitHub Streak"/></a>
+</p>
+
+### 🚀 Recent Activity
 
 <div align="center">
 
-### 🎯 Contribution Highlights
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Publications-30+-0366D6?style=for-the-badge&logoColor=white" alt="Publications"/>
-      <br/>
-      <b>Q1 Journals</b>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Total_Commits-1,000+-0366D6?style=for-the-badge&logo=github&logoColor=white" alt="Commits"/>
-      <br/>
-      <b>Contributions</b>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Awards-10+-0366D6?style=for-the-badge&logoColor=white" alt="Awards"/>
-      <br/>
-      <b>Scholarships</b>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/h--index-19-0366D6?style=for-the-badge&logoColor=white" alt="h-index"/>
-      <br/>
-      <b>Citations: 1,330+</b>
-    </td>
-  </tr>
-</table>
-
-### 💻 Key Contributions
-
-🌊 **Hydrological Research**: NASA, NOAA, USGS water resources tools & analysis<br/>
-🤖 **Machine Learning / AI**: Deep learning for climate impact assessment<br/>
-🛰️ **Remote Sensing**: Google Earth Engine, satellite data processing<br/>
-🏆 **Awards**: NASA/AGU Data Viz Competition Winner, NOAA Innovators Fellow<br/>
-📚 **Publications**: 30+ papers in Q1 journals (h-index: 19)
+- 🏛️ **USDA-ARS**: Agricultural ecosystem modeling for water resources & food production in western US
+- 🌊 **National Water Center**: Summer Fellow for flood forecasting & water resource modeling (2024)
+- 🏆 **NASA/AGU**: Winner of Michael H. Freilich Student Data Visualization Competition
+- 🛰️ **Satellite Hydrology**: Building NASA SWOT, PACE & NOAA NWM analysis tools
+- 🔧 **Open Source**: Developing hydrological toolkits (LISF, PySWATCal, USGS Streamflow)
 
 </div>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=0366D6&icon_color=0366D6&text_color=c9d1d9&hide_rank=true&custom_title=GitHub%20Activity&hide=stars,issues&show=prs_merged,prs_merged_percentage" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=0366D6&text_color=c9d1d9&langs_count=6" alt="Top Languages" height="180"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ductran27&theme=tokyonight&hide_border=true&background=1a1b27&ring=0366D6&fire=C5A059&currStreakLabel=0366D6" alt="GitHub Streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ductran27&theme=tokyo-night&hide_border=true&bg_color=1a1b27&color=0366D6&line=C5A059&point=0366D6" alt="Activity Graph" width="100%"/>
-</p>
 
 ---
 
