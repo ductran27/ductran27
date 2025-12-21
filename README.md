@@ -101,30 +101,12 @@
 
 ## 📈 Academic Metrics
 
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/h--index-19-blue?style=for-the-badge" alt="h-index"/><br>
-      <b>Scholarly Impact</b>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Citations-1,330+-green?style=for-the-badge" alt="Citations"/><br>
-      <b>Total Citations</b>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Publications-30+-orange?style=for-the-badge" alt="Publications"/><br>
-      <b>Q1 Journals</b>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/i10--index-25-purple?style=for-the-badge" alt="i10-index"/><br>
-      <b>High-Impact</b>
-    </td>
-  </tr>
-</table>
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/H--Index-19-blue?style=for-the-badge" alt="H-Index"/>
+  <img src="https://img.shields.io/badge/Citations-1,330+-green?style=for-the-badge" alt="Citations"/>
+  <img src="https://img.shields.io/badge/Publications-30+-orange?style=for-the-badge" alt="Publications"/>
+  <img src="https://img.shields.io/badge/i10--Index-25-a855f7?style=for-the-badge" alt="i10-Index"/>
+</p>
 
 ---
 
