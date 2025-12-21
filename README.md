@@ -143,15 +143,15 @@ ORISE Fellow - Hydrologist at the U.S. Department of Agriculture (USDA) - Agricu
 ### 🚀 Recent Activity
 
 <div align="center">
-<h4>
+<p style="font-size: 1.1em;">
 
-🏛️ **USDA-ARS**: Agricultural ecosystem modeling for water resources & food production in western US<br>
-🌊 **National Water Center**: Summer Fellow for flood forecasting & water resource modeling (2024)<br>
-🏆 **NASA/AGU**: Winner of Michael H. Freilich Student Data Visualization Competition<br>
-🛰️ **Satellite Hydrology**: Building NASA SWOT, PACE & NOAA NWM analysis tools<br>
-🔧 **Open Source**: Developing hydrological toolkits (LISF, PySWATCal, USGS Streamflow)
+🏛️ <b>USDA-ARS</b>: Agricultural ecosystem modeling for water resources & food production in western US<br>
+🌊 <b>National Water Center</b>: Summer Fellow for flood forecasting & water resource modeling (2024)<br>
+🏆 <b>NASA/AGU</b>: Winner of Michael H. Freilich Student Data Visualization Competition<br>
+🛰️ <b>Satellite Hydrology</b>: Building NASA SWOT, PACE & NOAA NWM analysis tools<br>
+🔧 <b>Open Source</b>: Developing hydrological toolkits (LISF, PySWATCal, USGS Streamflow)
 
-</h4>
+</p>
 </div>
 
 ---
