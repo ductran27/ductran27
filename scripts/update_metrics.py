@@ -56,6 +56,11 @@ def fetch_scholar_metrics(scholar_id: str, retry: int = 0) -> dict:
         if not author:
             raise Exception("No author data returned")
 
+        # Fill indices section only (fast) - needed for h-index, i10-index
+        # Don't fill 'publications' as that's very slow
+        print("Filling indices...")
+        author = scholarly.fill(author, sections=['indices'])
+
         # Extract metrics
         pub_count = len(author.get('publications', []))
 
