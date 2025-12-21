@@ -140,10 +140,6 @@ ORISE Fellow - Hydrologist at the U.S. Department of Agriculture (USDA) - Agricu
   <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com/?user=ductran27&theme=tokyonight&hide_border=true&background=1a1b27&ring=a855f7&fire=a855f7&currStreakLabel=a855f7" alt="GitHub Streak"/></a>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ductran27&theme=tokyo-night&hide_border=true&bg_color=1a1b27&color=a855f7&line=a855f7&point=c9d1d9&area=true&area_color=a855f7" alt="Contribution Graph"/>
-</p>
-
 ### 🚀 Recent Activity
 
 <div align="center">
