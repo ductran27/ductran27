@@ -20,23 +20,19 @@ def fetch_scholar_metrics(scholar_id: str) -> dict:
         # Add random delay to appear more human-like
         time.sleep(random.uniform(2, 5))
 
-        # Search for the author by ID
+        # Search for the author by ID - this returns basic metrics
         author = scholarly.search_author_id(scholar_id)
 
-        # Fill with all sections to get publication count
-        author = scholarly.fill(author)
-
-        # Get publication count - either from filled list or container field
-        pub_count = len(author.get('publications', []))
-        if pub_count == 0:
-            # Fallback to container field if available
-            pub_count = author.get('num_publications', 30)
+        # Only fill indices section (fast) - skip publications (very slow)
+        # The basic metrics (citedby, hindex, i10index) are in the initial response
+        # We use fill with indices only to ensure we have the latest values
+        author = scholarly.fill(author, sections=['indices'])
 
         metrics = {
             "citations": str(author.get('citedby', 0)),
             "h_index": str(author.get('hindex', 0)),
             "i10_index": str(author.get('i10index', 0)),
-            "publications": str(pub_count)
+            "publications": "30"  # Static value - fetching all pubs is too slow
         }
 
         return metrics

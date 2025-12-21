@@ -30,6 +30,7 @@ jobs:
 
       - name: Fetch and update metrics
         run: python scripts/update_metrics.py
+        timeout-minutes: 5
 
       - name: Commit and push if changed
         run: |
