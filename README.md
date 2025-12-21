@@ -108,10 +108,10 @@
     </td>
   </tr>
   <tr>
-    <td align="center"><sub>Scholarly Impact</sub></td>
-    <td align="center"><sub>Total Citations</sub></td>
-    <td align="center"><sub>Q1 Journals</sub></td>
-    <td align="center"><sub>High-Impact Papers</sub></td>
+    <td align="center"><sub><b>Scholarly Impact</b></sub></td>
+    <td align="center"><sub><b>Total Citations</b></sub></td>
+    <td align="center"><sub><b>Q1 Journals</b></sub></td>
+    <td align="center"><sub><b>High-Impact Papers</b></sub></td>
   </tr>
 </table>
 
