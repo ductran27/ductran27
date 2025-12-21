@@ -68,7 +68,7 @@ def fetch_scholar_metrics(scholar_id: str, retry: int = 0) -> dict:
             "citations": str(author.get('citedby', 0)),
             "h_index": str(author.get('hindex', 0)),
             "i10_index": str(author.get('i10index', 0)),
-            "publications": str(pub_count) if pub_count > 0 else "30"
+            "publications": str(pub_count) if pub_count > 0 else "35"
         }
 
         print(f"Success! Metrics: {metrics}")
