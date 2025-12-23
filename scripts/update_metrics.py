@@ -1,65 +1,55 @@
 #!/usr/bin/env python3
 """
 Script to fetch Google Scholar metrics and update README.md
-Uses proxy rotation to avoid Google Scholar blocking GitHub Actions IPs.
+Uses direct HTTP requests with proper timeouts to avoid GitHub Actions timeouts.
 """
 
 import re
 import time
 import random
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeoutError
 
 # Google Scholar profile ID
 SCHOLAR_ID = "tIcTCNgAAAAJ"
 README_PATH = "README.md"
-MAX_RETRIES = 3
+MAX_RETRIES = 2  # Reduced retries to stay within timeout
+REQUEST_TIMEOUT = 30  # Timeout per request in seconds
 
 
-def setup_proxy():
-    """Set up proxy to avoid Google Scholar blocking GitHub Actions IPs."""
-    try:
-        from scholarly import scholarly, ProxyGenerator
+class TimeoutException(Exception):
+    pass
 
-        print("Setting up free proxy rotation...")
-        pg = ProxyGenerator()
 
-        # Try FreeProxies first (rotates through free proxy list)
+def fetch_with_timeout(func, timeout_sec):
+    """Run a function with a timeout using ThreadPoolExecutor."""
+    with ThreadPoolExecutor(max_workers=1) as executor:
+        future = executor.submit(func)
         try:
-            pg.FreeProxies()
-            scholarly.use_proxy(pg)
-            print("Free proxy configured")
-            return True
-        except Exception as e:
-            print(f"FreeProxies failed: {e}")
-
-        # If FreeProxies fails, try without proxy
-        print("Proceeding without proxy...")
-        return False
-
-    except Exception as e:
-        print(f"Proxy setup error: {e}")
-        return False
+            return future.result(timeout=timeout_sec)
+        except FuturesTimeoutError:
+            raise TimeoutException(f"Operation timed out after {timeout_sec}s")
 
 
 def fetch_scholar_metrics(scholar_id: str, retry: int = 0) -> dict:
-    """Fetch metrics with retry logic and exponential backoff."""
+    """Fetch metrics with retry logic and short delays."""
     try:
         from scholarly import scholarly
 
-        # Exponential backoff delay
-        delay = random.uniform(3, 8) * (retry + 1)
+        # Short delay to avoid rate limiting (reduced from exponential backoff)
+        delay = random.uniform(1, 3)
         print(f"Waiting {delay:.1f}s before request (attempt {retry + 1}/{MAX_RETRIES})...")
         time.sleep(delay)
 
-        print(f"Fetching author: {scholar_id}")
-        author = scholarly.search_author_id(scholar_id)
+        def do_fetch():
+            print(f"Fetching author: {scholar_id}")
+            author = scholarly.search_author_id(scholar_id)
+            if not author:
+                raise Exception("No author data returned")
+            print("Filling indices...")
+            return scholarly.fill(author, sections=['indices'])
 
-        if not author:
-            raise Exception("No author data returned")
-
-        # Fill indices section only (fast) - needed for h-index, i10-index
-        # Don't fill 'publications' as that's very slow
-        print("Filling indices...")
-        author = scholarly.fill(author, sections=['indices'])
+        # Wrap the fetch in a timeout
+        author = fetch_with_timeout(do_fetch, REQUEST_TIMEOUT)
 
         # Extract metrics
         pub_count = len(author.get('publications', []))
@@ -74,17 +64,20 @@ def fetch_scholar_metrics(scholar_id: str, retry: int = 0) -> dict:
         print(f"Success! Metrics: {metrics}")
         return metrics
 
+    except TimeoutException as e:
+        print(f"Attempt {retry + 1} timed out: {e}")
     except Exception as e:
         print(f"Attempt {retry + 1} failed: {e}")
 
-        if retry < MAX_RETRIES - 1:
-            wait = random.uniform(10, 20) * (retry + 1)
-            print(f"Waiting {wait:.1f}s before retry...")
-            time.sleep(wait)
-            return fetch_scholar_metrics(scholar_id, retry + 1)
+    # Retry with short delay
+    if retry < MAX_RETRIES - 1:
+        wait = random.uniform(3, 6)
+        print(f"Waiting {wait:.1f}s before retry...")
+        time.sleep(wait)
+        return fetch_scholar_metrics(scholar_id, retry + 1)
 
-        print("All attempts failed")
-        return None
+    print("All attempts failed")
+    return None
 
 
 def update_readme(metrics: dict) -> bool:
@@ -153,10 +146,7 @@ def main():
     print("Google Scholar Metrics Updater")
     print("=" * 50)
 
-    # Set up proxy first
-    setup_proxy()
-
-    # Fetch metrics with retries
+    # Fetch metrics with retries and timeouts
     metrics = fetch_scholar_metrics(SCHOLAR_ID)
 
     if metrics:
