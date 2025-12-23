@@ -1,55 +1,37 @@
 #!/usr/bin/env python3
 """
 Script to fetch Google Scholar metrics and update README.md
-Uses direct HTTP requests with proper timeouts to avoid GitHub Actions timeouts.
+Uses multiprocessing with hard timeouts to prevent GitHub Actions timeouts.
 """
 
 import re
 import time
 import random
-from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeoutError
+import multiprocessing
+import sys
 
 # Google Scholar profile ID
 SCHOLAR_ID = "tIcTCNgAAAAJ"
 README_PATH = "README.md"
 MAX_RETRIES = 2  # Reduced retries to stay within timeout
-REQUEST_TIMEOUT = 30  # Timeout per request in seconds
+REQUEST_TIMEOUT = 60  # Timeout per request in seconds
 
 
-class TimeoutException(Exception):
-    pass
-
-
-def fetch_with_timeout(func, timeout_sec):
-    """Run a function with a timeout using ThreadPoolExecutor."""
-    with ThreadPoolExecutor(max_workers=1) as executor:
-        future = executor.submit(func)
-        try:
-            return future.result(timeout=timeout_sec)
-        except FuturesTimeoutError:
-            raise TimeoutException(f"Operation timed out after {timeout_sec}s")
-
-
-def fetch_scholar_metrics(scholar_id: str, retry: int = 0) -> dict:
-    """Fetch metrics with retry logic and short delays."""
+def _fetch_worker(scholar_id: str, result_queue):
+    """Worker function that runs in a separate process."""
     try:
+        # Import scholarly inside the worker to isolate any import hangs
         from scholarly import scholarly
 
-        # Short delay to avoid rate limiting (reduced from exponential backoff)
-        delay = random.uniform(1, 3)
-        print(f"Waiting {delay:.1f}s before request (attempt {retry + 1}/{MAX_RETRIES})...")
-        time.sleep(delay)
+        print(f"Fetching author: {scholar_id}", flush=True)
+        author = scholarly.search_author_id(scholar_id)
 
-        def do_fetch():
-            print(f"Fetching author: {scholar_id}")
-            author = scholarly.search_author_id(scholar_id)
-            if not author:
-                raise Exception("No author data returned")
-            print("Filling indices...")
-            return scholarly.fill(author, sections=['indices'])
+        if not author:
+            result_queue.put({"error": "No author data returned"})
+            return
 
-        # Wrap the fetch in a timeout
-        author = fetch_with_timeout(do_fetch, REQUEST_TIMEOUT)
+        print("Filling indices...", flush=True)
+        author = scholarly.fill(author, sections=['indices'])
 
         # Extract metrics
         pub_count = len(author.get('publications', []))
@@ -61,22 +43,58 @@ def fetch_scholar_metrics(scholar_id: str, retry: int = 0) -> dict:
             "publications": str(pub_count) if pub_count > 0 else "35"
         }
 
-        print(f"Success! Metrics: {metrics}")
-        return metrics
+        result_queue.put({"metrics": metrics})
 
-    except TimeoutException as e:
-        print(f"Attempt {retry + 1} timed out: {e}")
     except Exception as e:
-        print(f"Attempt {retry + 1} failed: {e}")
+        result_queue.put({"error": str(e)})
+
+
+def fetch_scholar_metrics(scholar_id: str, retry: int = 0) -> dict:
+    """Fetch metrics with retry logic using multiprocessing for hard timeout."""
+    print(f"Attempt {retry + 1}/{MAX_RETRIES}...", flush=True)
+
+    # Short delay to avoid rate limiting
+    delay = random.uniform(1, 3)
+    print(f"Waiting {delay:.1f}s before request...", flush=True)
+    time.sleep(delay)
+
+    # Use multiprocessing to enable hard timeout (can actually kill hung processes)
+    result_queue = multiprocessing.Queue()
+    process = multiprocessing.Process(
+        target=_fetch_worker,
+        args=(scholar_id, result_queue)
+    )
+
+    process.start()
+    process.join(timeout=REQUEST_TIMEOUT)
+
+    if process.is_alive():
+        print(f"Request timed out after {REQUEST_TIMEOUT}s, terminating...", flush=True)
+        process.terminate()
+        process.join(timeout=5)
+        if process.is_alive():
+            process.kill()
+            process.join()
+
+    # Check for results
+    if not result_queue.empty():
+        result = result_queue.get_nowait()
+        if "metrics" in result:
+            print(f"Success! Metrics: {result['metrics']}", flush=True)
+            return result["metrics"]
+        elif "error" in result:
+            print(f"Error: {result['error']}", flush=True)
+    else:
+        print("No result received (process timed out or crashed)", flush=True)
 
     # Retry with short delay
     if retry < MAX_RETRIES - 1:
         wait = random.uniform(3, 6)
-        print(f"Waiting {wait:.1f}s before retry...")
+        print(f"Waiting {wait:.1f}s before retry...", flush=True)
         time.sleep(wait)
         return fetch_scholar_metrics(scholar_id, retry + 1)
 
-    print("All attempts failed")
+    print("All attempts failed", flush=True)
     return None
 
 
@@ -142,11 +160,11 @@ def update_readme(metrics: dict) -> bool:
 
 
 def main():
-    print("=" * 50)
-    print("Google Scholar Metrics Updater")
-    print("=" * 50)
+    print("=" * 50, flush=True)
+    print("Google Scholar Metrics Updater", flush=True)
+    print("=" * 50, flush=True)
 
-    # Fetch metrics with retries and timeouts
+    # Fetch metrics with retries and hard timeouts
     metrics = fetch_scholar_metrics(SCHOLAR_ID)
 
     if metrics:
@@ -155,8 +173,10 @@ def main():
         print("Failed to fetch metrics - will retry on next scheduled run")
 
     # Always exit 0 to not fail the workflow
-    exit(0)
+    sys.exit(0)
 
 
 if __name__ == "__main__":
+    # Required for multiprocessing on some platforms
+    multiprocessing.set_start_method('spawn', force=True)
     main()
