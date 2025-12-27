@@ -108,8 +108,8 @@
   <img src="https://img.shields.io/badge/Publications-35+-orange?style=for-the-badge" alt="Publications"/>
   <img src="https://img.shields.io/badge/i10--Index-25-a855f7?style=for-the-badge" alt="i10-Index"/>
   <br>
-  <img src="https://img.shields.io/badge/REPOSITORIES-19-a855f7?style=for-the-badge&logo=github&labelColor=555" alt="Repositories"/>
-  <img src="https://img.shields.io/badge/PRIVATE_REPOS-9-a855f7?style=for-the-badge&logo=github&labelColor=555" alt="Private Repos"/>
+  <img src="https://img.shields.io/badge/REPOSITORIES-19-0891b2?style=for-the-badge&logo=github&labelColor=555" alt="Repositories"/>
+  <img src="https://img.shields.io/badge/PRIVATE_REPOS-9-dc2626?style=for-the-badge&logo=github&labelColor=555" alt="Private Repos"/>
 </p>
 
 ---
@@ -117,7 +117,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&rank_icon=github&custom_title=Duc%20Tran's%20GitHub%20Stats" alt="GitHub Stats" height="195"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&rank_icon=github&custom_title=Duc%20Tran's%20GitHub%20Stats&hide=prs,contribs" alt="GitHub Stats" height="195"/>
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ductran27&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&text_color=c9d1d9&langs_count=8&layout=compact" alt="Most Used Languages" height="195"/>
 </p>
 
