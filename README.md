@@ -111,6 +111,19 @@
 
 ---
 
+## 🎯 Contribution Highlights
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PULL_REQUESTS-50+-a855f7?style=for-the-badge&logo=github&labelColor=555" alt="Pull Requests"/>
+  <img src="https://img.shields.io/badge/REPOSITORIES-36-a855f7?style=for-the-badge&logo=github&labelColor=555" alt="Repositories"/>
+  <img src="https://img.shields.io/badge/COMMITS_(2025)-1.2k-a855f7?style=for-the-badge&logo=github&labelColor=555" alt="Commits"/>
+</p>
+<p align="center">
+  <sub>Merged PRs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total Repos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total Commits</sub>
+</p>
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
