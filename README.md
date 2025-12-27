@@ -107,8 +107,7 @@
   <img src="https://img.shields.io/badge/Citations-1,344-green?style=for-the-badge" alt="Citations"/>
   <img src="https://img.shields.io/badge/Publications-35+-orange?style=for-the-badge" alt="Publications"/>
   <img src="https://img.shields.io/badge/i10--Index-25-a855f7?style=for-the-badge" alt="i10-Index"/>
-</p>
-<p align="center">
+  <br>
   <img src="https://img.shields.io/badge/REPOSITORIES-19-a855f7?style=for-the-badge&logo=github&labelColor=555" alt="Repositories"/>
   <img src="https://img.shields.io/badge/PRIVATE_REPOS-9-a855f7?style=for-the-badge&logo=github&labelColor=555" alt="Private Repos"/>
 </p>
