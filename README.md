@@ -114,8 +114,8 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&hide_rank=true&custom_title=Duc%20Tran" alt="GitHub Stats" height="195"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ductran27&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&text_color=c9d1d9&langs_count=8&layout=compact" alt="Most Used Languages" height="195"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&hide_rank=true&custom_title=Duc%20Tran" alt="GitHub Stats" height="195"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ductran27&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&text_color=c9d1d9&langs_count=8&layout=compact" alt="Most Used Languages" height="195"/>
 </p>
 
 <p align="center">
