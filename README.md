@@ -100,7 +100,7 @@
 
 ---
 
-## 📈 Academic Metrics
+## 📈 Metrics
 
 <p align="center">
   <img src="https://img.shields.io/badge/H--Index-19-blue?style=for-the-badge" alt="H-Index"/>
@@ -108,17 +108,9 @@
   <img src="https://img.shields.io/badge/Publications-35+-orange?style=for-the-badge" alt="Publications"/>
   <img src="https://img.shields.io/badge/i10--Index-25-a855f7?style=for-the-badge" alt="i10-Index"/>
 </p>
-
----
-
-## 🎯 Contribution Highlights
-
 <p align="center">
   <img src="https://img.shields.io/badge/REPOSITORIES-19-a855f7?style=for-the-badge&logo=github&labelColor=555" alt="Repositories"/>
   <img src="https://img.shields.io/badge/PRIVATE_REPOS-9-a855f7?style=for-the-badge&logo=github&labelColor=555" alt="Private Repos"/>
-</p>
-<p align="center">
-  <sub>Total Repos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Private Projects</sub>
 </p>
 
 ---
