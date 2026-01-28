@@ -104,7 +104,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/H--Index-19-blue?style=for-the-badge" alt="H-Index"/>
-  <img src="https://img.shields.io/badge/Citations-1,404-green?style=for-the-badge" alt="Citations"/>
+  <img src="https://img.shields.io/badge/Citations-1,405-green?style=for-the-badge" alt="Citations"/>
   <img src="https://img.shields.io/badge/Publications-35+-orange?style=for-the-badge" alt="Publications"/>
   <img src="https://img.shields.io/badge/i10--Index-25-a855f7?style=for-the-badge" alt="i10-Index"/>
   <br>
