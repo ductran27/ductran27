@@ -108,8 +108,8 @@
   <img src="https://img.shields.io/badge/Publications-35+-orange?style=for-the-badge" alt="Publications"/>
   <img src="https://img.shields.io/badge/i10--Index-25-a855f7?style=for-the-badge" alt="i10-Index"/>
   <br>
-  <img src="https://img.shields.io/badge/REPOSITORIES-19-0891b2?style=for-the-badge&logo=github&labelColor=555" alt="Repositories"/>
-  <img src="https://img.shields.io/badge/PRIVATE_REPOS-9-dc2626?style=for-the-badge&logo=github&labelColor=555" alt="Private Repos"/>
+  <img src="https://img.shields.io/badge/REPOSITORIES-23-0891b2?style=for-the-badge&logo=github&labelColor=555" alt="Repositories"/>
+  <img src="https://img.shields.io/badge/PRIVATE_REPOS-13-dc2626?style=for-the-badge&logo=github&labelColor=555" alt="Private Repos"/>
 </p>
 
 ---
