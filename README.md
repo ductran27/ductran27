@@ -104,9 +104,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/H--Index-19-blue?style=for-the-badge" alt="H-Index"/>
-  <img src="https://img.shields.io/badge/Citations-1,570-green?style=for-the-badge" alt="Citations"/>
+  <img src="https://img.shields.io/badge/Citations-1,572-green?style=for-the-badge" alt="Citations"/>
   <img src="https://img.shields.io/badge/Publications-35+-orange?style=for-the-badge" alt="Publications"/>
-  <img src="https://img.shields.io/badge/i10--Index-27-a855f7?style=for-the-badge" alt="i10-Index"/>
+  <img src="https://img.shields.io/badge/i10--Index-28-a855f7?style=for-the-badge" alt="i10-Index"/>
   <br>
   <img src="https://img.shields.io/badge/REPOSITORIES-23-0891b2?style=for-the-badge&logo=github&labelColor=555" alt="Repositories"/>
   <img src="https://img.shields.io/badge/PRIVATE_REPOS-13-dc2626?style=for-the-badge&logo=github&labelColor=555" alt="Private Repos"/>
