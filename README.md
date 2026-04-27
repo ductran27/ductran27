@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Duc Tran</h1>
-<h3 align="center">Ph.D. | ORISE Fellow @ USDA-ARS</h3>
+<h3 align="center">Ph.D. in Civil Engineering | Hydroinformatics Researcher</h3>
 
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=500&duration=2000&color=A855F7&center=true&vCenter=true&width=600&lines=Hydroinformatics+Researcher;Remote+Sensing+Scientist;Machine+Learning+%2F+AI+Scientist;Water+Resources+Modeler;Full+Stack+Web+Developer" alt="Typing SVG" /></a>
@@ -18,7 +18,7 @@
 
 ## About Me
 
-**ORISE Fellow** - **Hydrologist** at the **U.S. Department of Agriculture (USDA)** - Agricultural Research Service (ARS), focusing on **agricultural ecosystem** modeling for **water resources** and **food production** challenges in the western United States. Ph.D. in Civil Engineering from the University of Virginia, specializing in Hydroinformatics, Remote Sensing, and Machine Learning / AI applications for climate impact assessment.
+**Hydrologist** and **Researcher** focusing on **agricultural ecosystem** modeling for **water resources** and **food production** challenges in the western United States. Ph.D. in Civil Engineering from the University of Virginia, specializing in Hydroinformatics, Remote Sensing, and Machine Learning / AI applications for climate impact assessment.
 
 ---
 
