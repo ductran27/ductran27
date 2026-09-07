@@ -163,7 +163,7 @@
 [![Google Scholar](https://img.shields.io/badge/📚_Scholar-Publications-4285F4?style=for-the-badge&labelColor=2b2b2b)](https://scholar.google.com/citations?user=tIcTCNgAAAAJ&hl=en&oi=ao)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge&labelColor=2b2b2b)](https://www.linkedin.com/in/thanh-nhan-duc-tran/)
 <br>
-[![Email](https://img.shields.io/badge/📧_Email-Contact-D14836?style=for-the-badge&labelColor=2b2b2b)](mailto:syu3cs@virginia.edu)
+[![Email](https://img.shields.io/badge/📧_Email-Contact-D14836?style=for-the-badge&labelColor=2b2b2b)](mailto:duc.dut.wr@gmail.com)
 [![ORCID](https://img.shields.io/badge/🆔_ORCID-Profile-A6CE39?style=for-the-badge&labelColor=2b2b2b)](https://orcid.org/0000-0001-8478-5893)
 ![Location](https://img.shields.io/badge/📍_Location-Texas,_USA-17A2B8?style=for-the-badge&labelColor=2b2b2b)
 
