@@ -7,7 +7,7 @@
   "papers": "50+",
   "repositories": 42,
   "github": {
-    "commits": 6687,
+    "commits": 6693,
     "stars": 71,
     "repos": 13,
     "followers": 19,
@@ -19,7 +19,7 @@
       ],
       [
         "Swift",
-        9.1,
+        9.2,
         "#F05138"
       ],
       [
@@ -39,7 +39,7 @@
       ],
       [
         "Other",
-        2.0,
+        1.9,
         "#8b949e"
       ]
     ]
