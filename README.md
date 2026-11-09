@@ -33,15 +33,6 @@ I am a hydrologist at the USDA Agricultural Research Service in Temple, Texas. I
   <img src="./assets/skills-light.svg" width="100%" alt="Technical skills: Earth system models (SONTINH, SWAT and SWAT+, WRF-Chem, NASA Land Information System, NOAA National Water Model, HAND, HEC-RAS, HEC-HMS); data assimilation and calibration; satellite Earth observation (SMAP, Sentinel-1, SWOT, NISAR, PACE, MODIS, Landsat, OpenET, Google Earth Engine); climate and reanalysis data; machine learning (PyTorch, TensorFlow, scikit-learn, XGBoost); scientific computing (Python, CUDA, Rust, Fortran, R, MATLAB, MPI); geospatial; visualization and software">
 </picture>
 
-## Selected repositories
-
-<a href="https://github.com/ductran27/GCM-downloader"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-GCM-downloader-dark.svg"><img src="./assets/repo-GCM-downloader-light.svg" width="49%" alt="GCM-downloader"></picture></a>
-<a href="https://github.com/ductran27/PySWATCal"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-PySWATCal-dark.svg"><img src="./assets/repo-PySWATCal-light.svg" width="49%" alt="PySWATCal"></picture></a>
-<a href="https://github.com/ductran27/NASA_SWOT-hydrology"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-NASA_SWOT-hydrology-dark.svg"><img src="./assets/repo-NASA_SWOT-hydrology-light.svg" width="49%" alt="NASA_SWOT-hydrology"></picture></a>
-<a href="https://github.com/ductran27/NISAR-analysis"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-NISAR-analysis-dark.svg"><img src="./assets/repo-NISAR-analysis-light.svg" width="49%" alt="NISAR-analysis"></picture></a>
-<a href="https://github.com/ductran27/NOAA_FIM_flood-risk-mapping"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-NOAA_FIM_flood-risk-mapping-dark.svg"><img src="./assets/repo-NOAA_FIM_flood-risk-mapping-light.svg" width="49%" alt="NOAA_FIM_flood-risk-mapping"></picture></a>
-<a href="https://github.com/ductran27/NASA_PACE-ocean-health"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-NASA_PACE-ocean-health-dark.svg"><img src="./assets/repo-NASA_PACE-ocean-health-light.svg" width="49%" alt="NASA_PACE-ocean-health"></picture></a>
-
 ## GitHub
 
 <picture>

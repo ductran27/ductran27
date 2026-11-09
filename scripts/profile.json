@@ -44,50 +44,6 @@
       ]
     ]
   },
-  "featured": [
-    {
-      "name": "GCM-downloader",
-      "description": "CMIP6 downloader with OPeNDAP subsetting and server failover, 61 models",
-      "language": "Python",
-      "color": "#3572A5",
-      "stars": 26
-    },
-    {
-      "name": "PySWATCal",
-      "description": "Automated calibration and sensitivity analysis of SWAT watershed models",
-      "language": "Python",
-      "color": "#3572A5",
-      "stars": 5
-    },
-    {
-      "name": "NASA_SWOT-hydrology",
-      "description": "River and lake water levels from the SWOT satellite",
-      "language": "Python",
-      "color": "#3572A5",
-      "stars": 5
-    },
-    {
-      "name": "NISAR-analysis",
-      "description": "Surface deformation and land subsidence from NISAR radar interferometry",
-      "language": "Python",
-      "color": "#3572A5",
-      "stars": 4
-    },
-    {
-      "name": "NOAA_FIM_flood-risk-mapping",
-      "description": "HAND flood inundation from National Water Model forecasts, with social vulnerability",
-      "language": "Python",
-      "color": "#3572A5",
-      "stars": 4
-    },
-    {
-      "name": "NASA_PACE-ocean-health",
-      "description": "Ocean colour and phytoplankton blooms from the PACE mission",
-      "language": "Python",
-      "color": "#3572A5",
-      "stars": 5
-    }
-  ],
   "skills": [
     [
       "Earth system models",

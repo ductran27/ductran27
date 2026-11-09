@@ -7,7 +7,7 @@ SIL Open Font License), so the images look the same on every machine. The
 backgrounds are transparent and the colours follow the light and dark GitHub
 themes; README.md picks the version with <picture> and prefers-color-scheme.
 
-    python scripts/profile_art.py            # numbers, skills, cards
+    python scripts/profile_art.py            # numbers and skills
     python scripts/profile_art.py --banner   # also the banner (numpy, matplotlib)
 """
 import functools
@@ -138,29 +138,6 @@ def skills(d, mode):
         heights[c] = y + 49 + (len(lines) - 1) * lh + 24
     label = "Technical skills. " + " ".join("%s: %s." % (h, ", ".join(i)) for h, i in groups)
     return svg(WIDTH, max(heights) - 10, "".join(cols[0] + cols[1]), label)
-
-
-BOOK = ("M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5"
-        "h1.75v-2h-8a1 1 0 0 0-.71 1.71.75.75 0 0 1-1.07 1.05A2.5 2.5 0 0 1 2 11.5zm10.5-1h-8a1 1 0 0 0-1 1v6.71"
-        "A2.5 2.5 0 0 1 4.5 9h8z")
-STAR = "M8 1.2l2.1 4.3 4.7.7-3.4 3.3.8 4.7L8 12l-4.2 2.2.8-4.7L1.2 6.2l4.7-.7z"
-
-
-def repo_card(r, mode):
-    t = THEMES[mode]
-    w, h = 424, 116
-    b = ['<rect x="0.5" y="0.5" width="%d" height="%d" rx="6" fill="none" stroke="%s"/>' % (w - 1, h - 1, t["border"]),
-         '<path d="%s" transform="translate(18 17)" fill="%s"/>' % (BOOK, t["muted"]),
-         text("txtb", r["name"], 15, 42, 30, t["link"])]
-    for j, line in enumerate(wrap("txt", r["description"], 14, w - 40)[:2]):
-        b.append(text("txt", line, 14, 18, 56 + j * 19, t["muted"]))
-    b.append('<circle cx="24" cy="95" r="6" fill="%s"/>' % r["color"])
-    b.append(text("txt", r["language"], 13, 36, 99.5, t["muted"]))
-    sx = 36 + width("txt", r["language"], 13) + 18
-    b.append('<path d="%s" transform="translate(%.1f 87.5)" fill="none" stroke="%s" stroke-width="1.2" '
-             'stroke-linejoin="round"/>' % (STAR, sx, t["muted"]))
-    b.append(text("txt", str(r["stars"]), 13, sx + 20, 99.5, t["muted"]))
-    return svg(w, h, "".join(b), "%s: %s" % (r["name"], r["description"]))
 
 
 def github(d, mode):
@@ -323,8 +300,6 @@ def draw(d, with_banner=False):
         write("metrics-%s.svg" % mode, metrics(d, mode))
         write("skills-%s.svg" % mode, skills(d, mode))
         write("github-%s.svg" % mode, github(d, mode))
-        for r in d["featured"]:
-            write("repo-%s-%s.svg" % (r["name"], mode), repo_card(r, mode))
         if with_banner:
             write("banner-%s.svg" % mode, banner(mode))
 

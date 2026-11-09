@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Read the GitHub numbers of the profile (commits, stars, repositories,
-followers, languages, stars of the featured repositories) into
+followers, languages) into
 scripts/profile.json and draw the images of the README from it (assets/).
 
 Tokens (environment):
@@ -52,9 +52,7 @@ query($login: String!) {
     repositories(ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC, first: 100) {
       totalCount
       nodes {
-        name
         stargazerCount
-        primaryLanguage { name color }
         languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
           edges { size node { name color } }
         }
@@ -91,14 +89,6 @@ def github_numbers(d, token):
         "followers": u["followers"]["totalCount"],
         "languages": langs,
     }
-    by_name = {r["name"]: r for r in repos}
-    for f in d["featured"]:
-        r = by_name.get(f["name"])
-        if r:
-            f["stars"] = r["stargazerCount"]
-            if r["primaryLanguage"]:
-                f["language"] = r["primaryLanguage"]["name"]
-                f["color"] = r["primaryLanguage"]["color"] or OTHER
 
 
 def repository_count(token):
