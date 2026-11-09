@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="195" viewBox="0 0 350 195" role="img" aria-label="Most Used Languages">
+<title>Most Used Languages</title>
+<style>.t{font:600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif;fill:#a855f7}.l{font:400 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif;fill:#c9d1d9}.v{font:700 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif;fill:#c9d1d9}.s{font:400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif;fill:#8b949e}</style>
+<rect x="0.5" y="0.5" width="349" height="194" rx="4.5" fill="#1a1b27" stroke="#1a1b27"/>
+<text x="25" y="35" class="t">Most Used Languages</text>
+<clipPath id="r"><rect x="25" y="52" width="300" height="8" rx="4"/></clipPath><g clip-path="url(#r)">
+<rect x="25.00" y="52" width="239.11" height="8" fill="#3572A5"/>
+<rect x="263.61" y="52" width="28.17" height="8" fill="#F05138"/>
+<rect x="291.28" y="52" width="13.69" height="8" fill="#89e051"/>
+<rect x="304.47" y="52" width="12.37" height="8" fill="#dea584"/>
+<rect x="316.34" y="52" width="3.45" height="8" fill="#f1e05a"/>
+<rect x="319.29" y="52" width="3.25" height="8" fill="#012456"/>
+<rect x="322.04" y="52" width="2.91" height="8" fill="#663399"/>
+<rect x="324.45" y="52" width="1.05" height="8" fill="#e34c26"/>
+</g>
+<circle cx="30" cy="80" r="5" fill="#3572A5"/>
+<text x="41" y="84" class="l">Python <tspan class="s">79.54%</tspan></text>
+<circle cx="190" cy="80" r="5" fill="#F05138"/>
+<text x="201" y="84" class="l">Swift <tspan class="s">9.22%</tspan></text>
+<circle cx="30" cy="105" r="5" fill="#89e051"/>
+<text x="41" y="109" class="l">Shell <tspan class="s">4.40%</tspan></text>
+<circle cx="190" cy="105" r="5" fill="#dea584"/>
+<text x="201" y="109" class="l">Rust <tspan class="s">3.96%</tspan></text>
+<circle cx="30" cy="130" r="5" fill="#f1e05a"/>
+<text x="41" y="134" class="l">JavaScript <tspan class="s">0.98%</tspan></text>
+<circle cx="190" cy="130" r="5" fill="#012456"/>
+<text x="201" y="134" class="l">PowerShell <tspan class="s">0.92%</tspan></text>
+<circle cx="30" cy="155" r="5" fill="#663399"/>
+<text x="41" y="159" class="l">CSS <tspan class="s">0.80%</tspan></text>
+<circle cx="190" cy="155" r="5" fill="#e34c26"/>
+<text x="201" y="159" class="l">HTML <tspan class="s">0.18%</tspan></text>
+</svg>

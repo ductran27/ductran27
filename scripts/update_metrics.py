@@ -1,182 +1,101 @@
 #!/usr/bin/env python3
-"""
-Script to fetch Google Scholar metrics and update README.md
-Uses multiprocessing with hard timeouts to prevent GitHub Actions timeouts.
-"""
+"""Read the Google Scholar metrics of the profile (citations, h-index,
+i10-index) and write them into the badges of README.md.
 
-import re
-import time
-import random
+The read runs in a child process with a hard time limit, as scholarly can hang
+on a slow or blocked request. Google Scholar sometimes refuses the runners of
+GitHub Actions; the badges then keep their values and the run passes, to try
+again at the next schedule. A broken install (a missing module, an API change
+of scholarly) fails the run instead, so that it is seen: until November 2026
+bibtexparser 2 broke the import of scholarly and every run passed without an
+update for two months.
+
+The Publications badge is set by hand: Google Scholar also lists abstracts and
+talks, so its count is not the number of papers.
+"""
 import multiprocessing
+import random
+import re
 import sys
+import time
 
-# Google Scholar profile ID
 SCHOLAR_ID = "tIcTCNgAAAAJ"
 README_PATH = "README.md"
-MAX_RETRIES = 2  # Reduced retries to stay within timeout
-REQUEST_TIMEOUT = 60  # Timeout per request in seconds
+ATTEMPTS = 2
+TIME_LIMIT = 60          # seconds per attempt
+CODE_ERRORS = ("ImportError", "ModuleNotFoundError", "AttributeError", "TypeError", "NameError")
 
 
-def _fetch_worker(scholar_id: str, result_queue):
-    """Worker function that runs in a separate process."""
+def _fetch(scholar_id, queue):
     try:
-        # Import scholarly inside the worker to isolate any import hangs
         from scholarly import scholarly
-
-        print(f"Fetching author: {scholar_id}", flush=True)
         author = scholarly.search_author_id(scholar_id)
-
         if not author:
-            result_queue.put({"error": "No author data returned"})
+            queue.put({"error": "no author data", "kind": "empty"})
             return
-
-        print("Filling indices...", flush=True)
-        author = scholarly.fill(author, sections=['indices'])
-
-        # Extract metrics
-        pub_count = len(author.get('publications', []))
-
-        metrics = {
-            "citations": str(author.get('citedby', 0)),
-            "h_index": str(author.get('hindex', 0)),
-            "i10_index": str(author.get('i10index', 0)),
-            "publications": str(pub_count) if pub_count > 0 else "35"
-        }
-
-        result_queue.put({"metrics": metrics})
-
+        author = scholarly.fill(author, sections=["indices"])
+        queue.put({"metrics": {"citations": int(author.get("citedby") or 0),
+                               "h_index": int(author.get("hindex") or 0),
+                               "i10_index": int(author.get("i10index") or 0)}})
     except Exception as e:
-        result_queue.put({"error": str(e)})
+        queue.put({"error": "%s: %s" % (type(e).__name__, e), "kind": type(e).__name__})
 
 
-def fetch_scholar_metrics(scholar_id: str, retry: int = 0) -> dict:
-    """Fetch metrics with retry logic using multiprocessing for hard timeout."""
-    print(f"Attempt {retry + 1}/{MAX_RETRIES}...", flush=True)
-
-    # Short delay to avoid rate limiting
-    delay = random.uniform(1, 3)
-    print(f"Waiting {delay:.1f}s before request...", flush=True)
-    time.sleep(delay)
-
-    # Use multiprocessing to enable hard timeout (can actually kill hung processes)
-    result_queue = multiprocessing.Queue()
-    process = multiprocessing.Process(
-        target=_fetch_worker,
-        args=(scholar_id, result_queue)
-    )
-
-    process.start()
-    process.join(timeout=REQUEST_TIMEOUT)
-
-    if process.is_alive():
-        print(f"Request timed out after {REQUEST_TIMEOUT}s, terminating...", flush=True)
-        process.terminate()
-        process.join(timeout=5)
-        if process.is_alive():
-            process.kill()
-            process.join()
-
-    # Check for results
-    if not result_queue.empty():
-        result = result_queue.get_nowait()
+def fetch():
+    """The metrics, or None after ATTEMPTS failed reads. Exits 1 on a code error."""
+    for attempt in range(1, ATTEMPTS + 1):
+        time.sleep(random.uniform(1, 3))
+        print("attempt %d of %d" % (attempt, ATTEMPTS), flush=True)
+        queue = multiprocessing.Queue()
+        proc = multiprocessing.Process(target=_fetch, args=(SCHOLAR_ID, queue))
+        proc.start()
+        proc.join(TIME_LIMIT)
+        if proc.is_alive():
+            print("no answer in %d s" % TIME_LIMIT, flush=True)
+            proc.terminate()
+            proc.join(5)
+            if proc.is_alive():
+                proc.kill()
+                proc.join()
+        result = queue.get_nowait() if not queue.empty() else {"error": "no result", "kind": "timeout"}
         if "metrics" in result:
-            print(f"Success! Metrics: {result['metrics']}", flush=True)
-            return result["metrics"]
-        elif "error" in result:
-            print(f"Error: {result['error']}", flush=True)
-    else:
-        print("No result received (process timed out or crashed)", flush=True)
-
-    # Retry with short delay
-    if retry < MAX_RETRIES - 1:
-        wait = random.uniform(3, 6)
-        print(f"Waiting {wait:.1f}s before retry...", flush=True)
-        time.sleep(wait)
-        return fetch_scholar_metrics(scholar_id, retry + 1)
-
-    print("All attempts failed", flush=True)
+            m = result["metrics"]
+            if m["citations"] and m["h_index"]:
+                print("metrics:", m, flush=True)
+                return m
+            result = {"error": "empty metrics %s" % m, "kind": "empty"}
+        print("failed:", result["error"], flush=True)
+        if result["kind"] in CODE_ERRORS:
+            print("this is an error of the code or of its packages, not of Google Scholar", flush=True)
+            sys.exit(1)
+        if attempt < ATTEMPTS:
+            time.sleep(random.uniform(3, 6))
     return None
 
 
-def update_readme(metrics: dict) -> bool:
-    """Update the README.md with new metrics."""
-    if not metrics:
-        print("No metrics to update")
-        return False
-
-    try:
-        with open(README_PATH, "r", encoding="utf-8") as f:
-            content = f.read()
-
-        original_content = content
-
-        # Update H-Index
-        if "h_index" in metrics:
-            content = re.sub(
-                r'(H--Index-)\d+(-blue)',
-                f'\\g<1>{metrics["h_index"]}\\2',
-                content
-            )
-
-        # Update Citations (exact number, no +)
-        if "citations" in metrics:
-            citations = metrics["citations"].replace(",", "")
-            citations_formatted = f"{int(citations):,}"
-            content = re.sub(
-                r'(Citations-)[0-9,]+\+?(-green)',
-                f'\\g<1>{citations_formatted}\\2',
-                content
-            )
-
-        # Update Publications
-        if "publications" in metrics:
-            pubs = metrics["publications"].rstrip("+")
-            content = re.sub(
-                r'(Publications-)\d+\+?(-orange)',
-                f'\\g<1>{pubs}+\\2',
-                content
-            )
-
-        # Update i10-Index
-        if "i10_index" in metrics:
-            content = re.sub(
-                r'(i10--Index-)\d+(-a855f7)',
-                f'\\g<1>{metrics["i10_index"]}\\2',
-                content
-            )
-
-        if content != original_content:
-            with open(README_PATH, "w", encoding="utf-8") as f:
-                f.write(content)
-            print("README.md updated successfully!")
-            return True
-        else:
-            print("No changes needed - metrics are up to date")
-            return False
-
-    except Exception as e:
-        print(f"Error updating README: {e}")
-        return False
+def update_readme(m):
+    with open(README_PATH, encoding="utf-8") as f:
+        text = f.read()
+    new = re.sub(r"(badge/H--Index-)\d+(-)", r"\g<1>%d\2" % m["h_index"], text)
+    new = re.sub(r"(badge/Citations-)[0-9,]+\+?(-)", r"\g<1>{:,}\2".format(m["citations"]), new)
+    new = re.sub(r"(badge/i10--Index-)\d+(-)", r"\g<1>%d\2" % m["i10_index"], new)
+    if new == text:
+        print("README metrics already up to date")
+        return
+    with open(README_PATH, "w", encoding="utf-8") as f:
+        f.write(new)
+    print("README metrics updated")
 
 
 def main():
-    print("=" * 50, flush=True)
-    print("Google Scholar Metrics Updater", flush=True)
-    print("=" * 50, flush=True)
-
-    # Fetch metrics with retries and hard timeouts
-    metrics = fetch_scholar_metrics(SCHOLAR_ID)
-
+    metrics = fetch()
     if metrics:
         update_readme(metrics)
     else:
-        print("Failed to fetch metrics - will retry on next scheduled run")
-
-    # Always exit 0 to not fail the workflow
-    sys.exit(0)
+        print("Google Scholar did not answer; the badges keep their values")
+    return 0
 
 
 if __name__ == "__main__":
-    # Required for multiprocessing on some platforms
-    multiprocessing.set_start_method('spawn', force=True)
-    main()
+    multiprocessing.set_start_method("spawn", force=True)
+    sys.exit(main())

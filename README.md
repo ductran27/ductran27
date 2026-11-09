@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://ductran96.com"><img src="https://img.shields.io/badge/Website-ductran96.com-C5A059?style=for-the-badge&logo=safari&logoColor=ffffff" alt="Website"/></a>
-  <a href="mailto:syu3cs@virginia.edu"><img src="https://img.shields.io/badge/Email-syu3cs@virginia.edu-D14836?style=for-the-badge&logo=gmail&logoColor=ffffff" alt="Email"/></a>
+  <a href="mailto:duc.dut.wr@gmail.com"><img src="https://img.shields.io/badge/Email-duc.dut.wr@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=ffffff" alt="Email"/></a>
   <a href="https://www.linkedin.com/in/thanh-nhan-duc-tran/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg==" alt="LinkedIn"/></a>
   <a href="https://scholar.google.com/citations?user=tIcTCNgAAAAJ&hl=en&oi=ao"><img src="https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=for-the-badge&logo=googlescholar&logoColor=ffffff" alt="Google Scholar"/></a>
   <a href="https://orcid.org/0000-0001-8478-5893"><img src="https://img.shields.io/badge/ORCID-0000--0001--8478--5893-A6CE39?style=for-the-badge&logo=orcid&logoColor=ffffff" alt="ORCID"/></a>
@@ -54,7 +54,7 @@
 ![HEC-RAS](https://img.shields.io/badge/HEC--RAS-1565C0?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yIDEyYzIuNS0yIDUtMiA3LjUgMHM1IDIgNy41IDBjMi41LTIgNS0yIDcgMHYzYy0yIDItNC41IDItNyAwcy01LTItNy41IDBjLTIuNSAyLTUgMi03LjUgMHYtM3oiLz48cGF0aCBkPSJNMiAxN2MyLjUtMiA1LTIgNy41IDBzNSAyIDcuNSAwYzIuNS0yIDUtMiA3IDB2M2MtMiAyLTQuNSAyLTcgMHMtNS0yLTcuNSAwYy0yLjUgMi01IDItNy41IDB2LTN6IiBmaWxsLW9wYWNpdHk9IjAuNiIvPjxwYXRoIGQ9Ik00IDR2NmgxNlY0TDEyIDhMNCA0eiIvPjwvc3ZnPg==)
 ![HEC-HMS](https://img.shields.io/badge/HEC--HMS-1976D2?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyYy0zIDMtNiA4LTYgMTIgMCAzLjMxIDIuNjkgNiA2IDZzNi0yLjY5IDYtNmMwLTQtMy05LTYtMTJ6Ii8+PHBhdGggZD0iTTQgNGwyIDJNNCA4bDIgMk04IDRsMiAyIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIgZmlsbD0ibm9uZSIvPjxjaXJjbGUgY3g9IjE4IiBjeT0iNSIgcj0iMiIvPjxjaXJjbGUgY3g9IjIwIiBjeT0iOSIgcj0iMS41Ii8+PC9zdmc+)
 ![NASA LISF](https://img.shields.io/badge/NASA_LISF-E53935?style=for-the-badge&logo=nasa&logoColor=white)
-![HAND (NOAA NWM)](https://img.shields.io/badge/HAND_(NOAA_NWM)-0277BD?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMSAySDNjLTEuMSAwLTIgLjktMiAydjEyYzAgMS4xLjkgMiAyIDJoN3YySDh2Mmg4di0yaC0ydi0yaDdjMS4xIDAgMi0uOSAyLTJWNGMwLTEuMS0uOS0yLTItMnptMCAxNEgzVjRoMTh2MTJ6Ii8+PC9zdmc+)
+![HAND (NOAA NWM)](https://img.shields.io/badge/HAND_%28NOAA_NWM%29-0277BD?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMSAySDNjLTEuMSAwLTIgLjktMiAydjEyYzAgMS4xLjkgMiAyIDJoN3YySDh2Mmg4di0yaC0ydi0yaDdjMS4xIDAgMi0uOSAyLTJWNGMwLTEuMS0uOS0yLTItMnptMCAxNEgzVjRoMTh2MTJ6Ii8+PC9zdmc+)
 
 ### Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOS4zNSAxMC4wNEMxOC42NyA2LjU5IDE1LjY0IDQgMTIgNCA5LjExIDQgNi42IDUuNjQgNS4zNSA4LjA0IDIuMzQgOC4zNiAwIDEwLjkxIDAgMTRjMCAzLjMxIDIuNjkgNiA2IDZoMTNjMi43NiAwIDUtMi4yNCA1LTUgMC0yLjY0LTIuMDUtNC43OC00LjY1LTQuOTZ6Ii8+PC9zdmc+)
@@ -103,13 +103,13 @@
 ## 📈 Metrics
 
 <p align="center">
-  <img src="https://img.shields.io/badge/H--Index-19-blue?style=for-the-badge" alt="H-Index"/>
-  <img src="https://img.shields.io/badge/Citations-1,754-green?style=for-the-badge" alt="Citations"/>
+  <img src="https://img.shields.io/badge/H--Index-20-blue?style=for-the-badge" alt="H-Index"/>
+  <img src="https://img.shields.io/badge/Citations-1,821-green?style=for-the-badge" alt="Citations"/>
   <img src="https://img.shields.io/badge/Publications-35+-orange?style=for-the-badge" alt="Publications"/>
   <img src="https://img.shields.io/badge/i10--Index-30-a855f7?style=for-the-badge" alt="i10-Index"/>
   <br>
-  <img src="https://img.shields.io/badge/REPOSITORIES-23-0891b2?style=for-the-badge&logo=github&labelColor=555" alt="Repositories"/>
-  <img src="https://img.shields.io/badge/PRIVATE_REPOS-13-dc2626?style=for-the-badge&logo=github&labelColor=555" alt="Private Repos"/>
+  <img src="https://img.shields.io/badge/REPOSITORIES-42-0891b2?style=for-the-badge&logo=github&labelColor=555" alt="Repositories"/>
+  <img src="https://img.shields.io/badge/PRIVATE_REPOS-28-dc2626?style=for-the-badge&logo=github&labelColor=555" alt="Private Repos"/>
 </p>
 
 ---
@@ -117,8 +117,8 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ductran27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&rank_icon=github&custom_title=Duc%20Tran's%20GitHub%20Stats&hide=prs,contribs" alt="GitHub Stats" height="195"/>
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ductran27&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=a855f7&text_color=c9d1d9&langs_count=8&layout=compact" alt="Most Used Languages" height="195"/>
+  <img src="./assets/github-stats.svg" alt="GitHub Stats" height="195"/>
+  <img src="./assets/top-langs.svg" alt="Most Used Languages" height="195"/>
 </p>
 
 <p align="center">
