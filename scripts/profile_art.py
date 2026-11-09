@@ -28,10 +28,10 @@ DATA = os.path.join(HERE, "profile.json")
 WIDTH = 860
 
 THEMES = {
-    "dark": dict(fg="#e6edf3", muted="#9198a1", faint="#6b737e", border="#3d444d", link="#4493f8",
+    "dark": dict(fg="#e6edf3", muted="#9198a1", border="#3d444d", link="#4493f8",
                  dot="#334051", grat="#151b23", home="#e3b341",
                  sats=["#79b8e0", "#6cc4a4", "#e0a964", "#c99ad6", "#ec8f7d"]),
-    "light": dict(fg="#1f2328", muted="#59636e", faint="#818b98", border="#d1d9e0", link="#0969da",
+    "light": dict(fg="#1f2328", muted="#59636e", border="#d1d9e0", link="#0969da",
                   dot="#c3ccd6", grat="#eff2f5", home="#bf8700",
                   sats=["#2f73a8", "#25856a", "#b26a16", "#8a55a0", "#b9533f"]),
 }
@@ -278,14 +278,11 @@ def banner(mode, cache={}):
     bx, by, bw, bh = NAME_BOX
     words = [text("name", "Duc Tran", 54, bx, by + 50, t["fg"], tracking=-0.4),
              text("txt", "Hydrologist and Earth system scientist", 16, bx + 1, by + 78, t["fg"]),
-             text("txt", "USDA Agricultural Research Service, Temple, Texas", 14, bx + 1, by + 98, t["muted"]),
-             text("txt", "Ground tracks of SMAP, SWOT, NISAR, Landsat 9 and Sentinel-1, one orbit each",
-                  11, WIDTH - 10, h - 8, t["faint"], "end")]
+             text("txt", "USDA Agricultural Research Service, Temple, Texas", 14, bx + 1, by + 98, t["muted"])]
     body = ('<defs><filter id="soft" x="-30%%" y="-60%%" width="160%%" height="220%%"><feGaussianBlur stdDeviation="14"/></filter>'
             '<mask id="quiet" maskUnits="userSpaceOnUse" x="0" y="0" width="%d" height="%d"><rect width="%d" height="%d" fill="#fff"/>'
-            '<rect x="%d" y="%d" width="%d" height="%d" rx="18" fill="#000" filter="url(#soft)"/>'
-            '<rect x="%d" y="%d" width="420" height="24" fill="#000" filter="url(#soft)"/></mask></defs>'
-            % (WIDTH, h, WIDTH, h, bx - 18, by - 6, bw + 36, bh + 18, WIDTH - 420, h - 24)
+            '<rect x="%d" y="%d" width="%d" height="%d" rx="18" fill="#000" filter="url(#soft)"/></mask></defs>'
+            % (WIDTH, h, WIDTH, h, bx - 18, by - 6, bw + 36, bh + 18)
             + '<g mask="url(#quiet)"><path d="%s" fill="none" stroke="%s" stroke-width="0.8"/>' % ("".join(grat), t["grat"])
             + '<path d="%s" stroke="%s" stroke-width="2.1" stroke-linecap="round"/>' % (dots, t["dot"])
             + "".join(tracks) + "".join(sats) + "</g>" + "".join(marks) + "".join(words))
