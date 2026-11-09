@@ -1,176 +1,58 @@
-<h1 align="center">Hi, I'm Duc Tran</h1>
-<h3 align="center">Ph.D. in Civil Engineering | Hydroinformatics Researcher</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <img src="./assets/banner-light.svg" width="100%" alt="Duc Tran, hydrologist and Earth system scientist, USDA Agricultural Research Service, Temple, Texas. Satellite ground tracks over the Earth.">
+</picture>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=500&duration=2000&color=A855F7&center=true&vCenter=true&width=600&lines=Hydroinformatics+Researcher;Remote+Sensing+Scientist;Machine+Learning+%2F+AI+Scientist;Water+Resources+Modeler;Full+Stack+Web+Developer" alt="Typing SVG" /></a>
+  <a href="https://ductran96.com">Website</a> ·
+  <a href="https://scholar.google.com/citations?user=tIcTCNgAAAAJ&hl=en">Google Scholar</a> ·
+  <a href="https://orcid.org/0000-0001-8478-5893">ORCID</a> ·
+  <a href="https://www.linkedin.com/in/thanh-nhan-duc-tran/">LinkedIn</a> ·
+  <a href="mailto:duc.dut.wr@gmail.com">duc.dut.wr@gmail.com</a>
 </p>
 
-<p align="center">
-  <a href="https://ductran96.com"><img src="https://img.shields.io/badge/Website-ductran96.com-C5A059?style=for-the-badge&logo=safari&logoColor=ffffff" alt="Website"/></a>
-  <a href="mailto:duc.dut.wr@gmail.com"><img src="https://img.shields.io/badge/Email-duc.dut.wr@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=ffffff" alt="Email"/></a>
-  <a href="https://www.linkedin.com/in/thanh-nhan-duc-tran/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg==" alt="LinkedIn"/></a>
-  <a href="https://scholar.google.com/citations?user=tIcTCNgAAAAJ&hl=en&oi=ao"><img src="https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=for-the-badge&logo=googlescholar&logoColor=ffffff" alt="Google Scholar"/></a>
-  <a href="https://orcid.org/0000-0001-8478-5893"><img src="https://img.shields.io/badge/ORCID-0000--0001--8478--5893-A6CE39?style=for-the-badge&logo=orcid&logoColor=ffffff" alt="ORCID"/></a>
-  <img src="https://img.shields.io/badge/Location-Texas,_United_States-17A2B8?style=for-the-badge&logo=googlemaps&logoColor=ffffff" alt="Location"/>
-</p>
+I am a hydrologist at the USDA Agricultural Research Service in Temple, Texas. I build and run Earth system models, from SONTINH, my GPU flood model for the conterminous United States, and the water budget of single crop fields to dust storms over the deserts of the Middle East, and I tie them to satellite observations and machine learning. Ph.D. in Civil Engineering, University of Virginia.
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/metrics-dark.svg">
+  <img src="./assets/metrics-light.svg" width="100%" alt="Google Scholar citations, h-index, i10-index, papers and repositories">
+</picture>
 
-## About Me
+## Research
 
-**Hydrologist** and **Researcher** focusing on **agricultural ecosystem** modeling for **water resources** and **food production** challenges in the western United States. Ph.D. in Civil Engineering from the University of Virginia, specializing in Hydroinformatics, Remote Sensing, and Machine Learning / AI applications for climate impact assessment.
+- **SONTINH**, a GPU 2-D flood model for the conterminous United States, run on floods such as hurricanes Harvey, Beryl and Florence
+- Field scale evapotranspiration and irrigation across US croplands (SWAT+, OpenET)
+- Assimilation of SMAP soil moisture into watershed models
+- Desert dust and aerosol over North Africa and the Levant with WRF-Chem
+- Floods, drought and drought recovery seen from space
 
----
+## Technical skills
 
-## Technical Skills
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-dark.svg">
+  <img src="./assets/skills-light.svg" width="100%" alt="Technical skills: Earth system models (SONTINH, SWAT and SWAT+, WRF-Chem, NASA Land Information System, NOAA National Water Model, HAND, HEC-RAS, HEC-HMS); data assimilation and calibration; satellite Earth observation (SMAP, Sentinel-1, SWOT, NISAR, PACE, MODIS, Landsat, OpenET, Google Earth Engine); climate and reanalysis data; machine learning (PyTorch, TensorFlow, scikit-learn, XGBoost); scientific computing (Python, CUDA, Rust, Fortran, R, MATLAB, MPI); geospatial; visualization and software">
+</picture>
 
-### Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yIDIwbDQtOCAzIDQgNS0xMCA4IDE0SDJ6Ii8+PHBhdGggZD0iTTkgMTZsLTMtNCAyLTQgNSAxMC00LTJ6IiBmaWxsLW9wYWNpdHk9IjAuNyIvPjwvc3ZnPg==)
+## Selected repositories
 
-### GIS & Remote Sensing
-![Google Earth Engine](https://img.shields.io/badge/Google_Earth_Engine-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![geemap](https://img.shields.io/badge/geemap-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![QGIS](https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=qgis&logoColor=white)
-![ArcGIS](https://img.shields.io/badge/ArcGIS-2C7AC3?style=for-the-badge&logo=arcgis&logoColor=white)
-![GDAL](https://img.shields.io/badge/GDAL-5CAE58?style=for-the-badge&logo=gdal&logoColor=white)
-![Rasterio](https://img.shields.io/badge/Rasterio-43B02A?style=for-the-badge&logo=python&logoColor=white)
+<a href="https://github.com/ductran27/GCM-downloader"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-GCM-downloader-dark.svg"><img src="./assets/repo-GCM-downloader-light.svg" width="49%" alt="GCM-downloader"></picture></a>
+<a href="https://github.com/ductran27/PySWATCal"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-PySWATCal-dark.svg"><img src="./assets/repo-PySWATCal-light.svg" width="49%" alt="PySWATCal"></picture></a>
+<a href="https://github.com/ductran27/NASA_SWOT-hydrology"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-NASA_SWOT-hydrology-dark.svg"><img src="./assets/repo-NASA_SWOT-hydrology-light.svg" width="49%" alt="NASA_SWOT-hydrology"></picture></a>
+<a href="https://github.com/ductran27/NISAR-analysis"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-NISAR-analysis-dark.svg"><img src="./assets/repo-NISAR-analysis-light.svg" width="49%" alt="NISAR-analysis"></picture></a>
+<a href="https://github.com/ductran27/NOAA_FIM_flood-risk-mapping"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-NOAA_FIM_flood-risk-mapping-dark.svg"><img src="./assets/repo-NOAA_FIM_flood-risk-mapping-light.svg" width="49%" alt="NOAA_FIM_flood-risk-mapping"></picture></a>
+<a href="https://github.com/ductran27/NASA_PACE-ocean-health"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/repo-NASA_PACE-ocean-health-dark.svg"><img src="./assets/repo-NASA_PACE-ocean-health-light.svg" width="49%" alt="NASA_PACE-ocean-health"></picture></a>
 
-### Machine Learning & Data Science
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![CNN](https://img.shields.io/badge/CNN-FF6F00?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxyZWN0IHg9IjIiIHk9IjIiIHdpZHRoPSI1IiBoZWlnaHQ9IjUiIHJ4PSIxIi8+PHJlY3QgeD0iOS41IiB5PSIyIiB3aWR0aD0iNSIgaGVpZ2h0PSI1IiByeD0iMSIvPjxyZWN0IHg9IjE3IiB5PSIyIiB3aWR0aD0iNSIgaGVpZ2h0PSI1IiByeD0iMSIvPjxyZWN0IHg9IjIiIHk9IjkuNSIgd2lkdGg9IjUiIGhlaWdodD0iNSIgcng9IjEiLz48cmVjdCB4PSI5LjUiIHk9IjkuNSIgd2lkdGg9IjUiIGhlaWdodD0iNSIgcng9IjEiLz48cmVjdCB4PSIxNyIgeT0iOS41IiB3aWR0aD0iNSIgaGVpZ2h0PSI1IiByeD0iMSIvPjxyZWN0IHg9IjIiIHk9IjE3IiB3aWR0aD0iNSIgaGVpZ2h0PSI1IiByeD0iMSIvPjxyZWN0IHg9IjkuNSIgeT0iMTciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiIHJ4PSIxIi8+PHJlY3QgeD0iMTciIHk9IjE3IiB3aWR0aD0iNSIgaGVpZ2h0PSI1IiByeD0iMSIvPjwvc3ZnPg==)
-![LSTM](https://img.shields.io/badge/LSTM-EE4C2C?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxjaXJjbGUgY3g9IjQiIGN5PSIxMiIgcj0iMi41Ii8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMi41Ii8+PGNpcmNsZSBjeD0iMjAiIGN5PSIxMiIgcj0iMi41Ii8+PHBhdGggZD0iTTYuNSAxMmgzTTE0LjUgMTJoMyIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48cGF0aCBkPSJNMTIgOS41VjVhMiAyIDAgMDEyLTJoNGEyIDIgMCAwMTIgMnY0IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwb2x5Z29uIHBvaW50cz0iMTIsMiA0LDcgMTIsMTIgMjAsNyIvPjxwYXRoIGQ9Ik00IDExbDggNSA4LTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS41Ii8+PHBhdGggZD0iTTQgMTVsOCA1IDgtNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48L3N2Zz4=)
+## GitHub
 
-### Hydrological Modeling
-![SWAT/SWAT+](https://img.shields.io/badge/SWAT%2FSWAT+-2E7D32?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yIDIwbDUtNSA0IDMgNS02IDYgNXYzSDJ6IiBmaWxsLW9wYWNpdHk9IjAuNiIvPjxwYXRoIGQ9Ik0yIDE2bDUtNSA0IDMgNS02IDYgNXYzSDJ6Ii8+PHBhdGggZD0iTTQgMmwyIDRMNCAybDIgNE00IDJsMiA0TTE0IDJsMiA0TDE0IDJsMiA0TTE0IDJsMiA0IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIgZmlsbD0ibm9uZSIvPjxjaXJjbGUgY3g9IjQiIGN5PSI3IiByPSIxLjUiLz48Y2lyY2xlIGN4PSIxNCIgY3k9IjciIHI9IjEuNSIvPjwvc3ZnPg==)
-![HEC-RAS](https://img.shields.io/badge/HEC--RAS-1565C0?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yIDEyYzIuNS0yIDUtMiA3LjUgMHM1IDIgNy41IDBjMi41LTIgNS0yIDcgMHYzYy0yIDItNC41IDItNyAwcy01LTItNy41IDBjLTIuNSAyLTUgMi03LjUgMHYtM3oiLz48cGF0aCBkPSJNMiAxN2MyLjUtMiA1LTIgNy41IDBzNSAyIDcuNSAwYzIuNS0yIDUtMiA3IDB2M2MtMiAyLTQuNSAyLTcgMHMtNS0yLTcuNSAwYy0yLjUgMi01IDItNy41IDB2LTN6IiBmaWxsLW9wYWNpdHk9IjAuNiIvPjxwYXRoIGQ9Ik00IDR2NmgxNlY0TDEyIDhMNCA0eiIvPjwvc3ZnPg==)
-![HEC-HMS](https://img.shields.io/badge/HEC--HMS-1976D2?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyYy0zIDMtNiA4LTYgMTIgMCAzLjMxIDIuNjkgNiA2IDZzNi0yLjY5IDYtNmMwLTQtMy05LTYtMTJ6Ii8+PHBhdGggZD0iTTQgNGwyIDJNNCA4bDIgMk04IDRsMiAyIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIgZmlsbD0ibm9uZSIvPjxjaXJjbGUgY3g9IjE4IiBjeT0iNSIgcj0iMiIvPjxjaXJjbGUgY3g9IjIwIiBjeT0iOSIgcj0iMS41Ii8+PC9zdmc+)
-![NASA LISF](https://img.shields.io/badge/NASA_LISF-E53935?style=for-the-badge&logo=nasa&logoColor=white)
-![HAND (NOAA NWM)](https://img.shields.io/badge/HAND_%28NOAA_NWM%29-0277BD?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMSAySDNjLTEuMSAwLTIgLjktMiAydjEyYzAgMS4xLjkgMiAyIDJoN3YySDh2Mmg4di0yaC0ydi0yaDdjMS4xIDAgMi0uOSAyLTJWNGMwLTEuMS0uOS0yLTItMnptMCAxNEgzVjRoMTh2MTJ6Ii8+PC9zdmc+)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-dark.svg">
+  <img src="./assets/github-light.svg" width="100%" alt="GitHub commits, stars, repositories, followers and languages">
+</picture>
 
-### Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOS4zNSAxMC4wNEMxOC42NyA2LjU5IDE1LjY0IDQgMTIgNCA5LjExIDQgNi42IDUuNjQgNS4zNSA4LjA0IDIuMzQgOC4zNiAwIDEwLjkxIDAgMTRjMCAzLjMxIDIuNjkgNiA2IDZoMTNjMi43NiAwIDUtMi4yNCA1LTUgMC0yLjY0LTIuMDUtNC43OC00LjY1LTQuOTZ6Ii8+PC9zdmc+)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+## Education and recognition
 
-### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxlbGxpcHNlIGN4PSIxMiIgY3k9IjUiIHJ4PSI4IiByeT0iMyIvPjxwYXRoIGQ9Ik00IDV2NmMwIDEuNjYgMy41OCAzIDggM3M4LTEuMzQgOC0zVjVjMCAxLjY2LTMuNTggMy04IDNTNCAgNi42NiA0IDV6Ii8+PHBhdGggZD0iTTQgMTF2NmMwIDEuNjYgMy41OCAzIDggM3M4LTEuMzQgOC0zdi02YzAgMS42Ni0zLjU4IDMtOCAzcy04LTEuMzQtOC0zeiIvPjwvc3ZnPg==)
-
----
-
-## Featured Projects
-
-| Repository | Description |
-|:-----------|:------------|
-| [**LIS-landsurface-toolkit**](https://github.com/ductran27/LIS-landsurface-toolkit) | Python toolkit for NASA land surface data acquisition and processing |
-| [**NOAA_FIM_flood-risk-mapping**](https://github.com/ductran27/NOAA_FIM_flood-risk-mapping) | Flood risk assessment combining NOAA forecasting with vulnerability data |
-| [**NASA_SWOT-hydrology**](https://github.com/ductran27/NASA_SWOT-hydrology) | Satellite water monitoring using NASA SWOT mission data |
-| [**MODIS-LULC-analysis**](https://github.com/ductran27/MODIS-LULC-analysis) | Land cover change detection and deforestation pattern tracking |
-| [**USGS_Streamflow-analysis**](https://github.com/ductran27/USGS_Streamflow-analysis) | Automated USGS streamflow data retrieval and analysis |
-| [**PySWATCal**](https://github.com/ductran27/PySWATCal) | Watershed model calibration tool for SWAT models |
-
----
-
-## 🔬 Research Domains
-
-<div align="center">
-
-![Hydroinformatics](https://img.shields.io/badge/Hydroinformatics-0288D1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMSAySDNjLTEuMSAwLTIgLjktMiAydjEyYzAgMS4xLjkgMiAyIDJoN3YySDh2Mmg4di0yaC0ydi0yaDdjMS4xIDAgMi0uOSAyLTJWNGMwLTEuMS0uOS0yLTItMnptMCAxNEgzVjRoMTh2MTJ6Ii8+PC9zdmc+)
-![Remote Sensing](https://img.shields.io/badge/Remote_Sensing-7B1FA2?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyek00IDEyYzAtMS45NS43MTgtMy43MyAxLjktNS4xTDguMTYgOS4xNmwtMS40MSAxLjQxTDQuNTkgOC40QzQuMjEgOS41NSA0IDEwLjc1IDQgMTJ6bTggOGMtMS4yNSAwLTIuNDUtLjIxLTMuNi0uNTlsMi4xNy0yLjE3IDEuNDEgMS40MUwxMC4xNiAxNmMuNjUuMjUgMS4zNC4zOSAyLjA1LjQxbC0uMjEuNTl6bTAtNGMtMi4yMSAwLTQtMS43OS00LTRzMS43OS00IDQtNCA0IDEuNzkgNCA0LTEuNzkgNC00IDR6bTYtNGMwIDEuMjUtLjIxIDIuNDUtLjU5IDMuNmwtMi4xNy0yLjE3LTEuNDEgMS40MUwxMy44NCAxNmMtLjY1LS4yNS0xLjM0LS4zOS0yLjA1LS40MWwuMjEtLjU5em0tNi4xNiAyLjE2bDIuMTctMi4xNyAxLjQxIDEuNDEtMi4xNyAyLjE3eiIvPjwvc3ZnPg==)
-![ML/AI](https://img.shields.io/badge/Machine_Learning_/_AI-FF6F00?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMSAxMC41VjhsLTMtMy41di0yTDE1IDAgOS41IDJsLTMgMS41VjZMMy41IDkgMiAxMi41VjE2bDMgMy41djJMOCAyNGw1LjUtMiAzLTEuNVYxOGwzLTMgMS41LTMuNXptLTktLjVjMSAwIDIgMSAyIDJzLTEgMi0yIDItMi0xLTItMiAxLTIgMi0yeiIvPjwvc3ZnPg==)
-![Climate Change](https://img.shields.io/badge/Climate_Change-43A047?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyek0xMSAyMC45M2MtMy45NS0uNDktNy03LjkzLTctOS40MyAwLS42Mi4wOC0xLjIxLjIxLTEuNzlMOS41IDEzdjFjMCAxLjEuOSAyIDIgMnYzLjkzek0xNS45MiAyMC42OGwtLjkyLS4yNlYxOGgtMVYxNGgtM3YtMi4yMWwtNC43OS00Ljc5QTcuOTYgNy45NiAwIDAxMTIgNGM0LjQxIDAgOCAzLjU5IDggOCAwIDMuMTgtMS44NSA1LjkyLTQuNTMgNy4yMnoiLz48L3N2Zz4=)
-<br>
-![Flood Forecasting](https://img.shields.io/badge/Flood_Forecasting-1565C0?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMS45OCAxNEgyMlYxMmwtMi0ydi0ySDRWMTBMMiAxMnYyaDIyeiIvPjxwYXRoIGQ9Ik0zIDE0djZjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnYtNmwtMi41IDIuNS0yLjUtMi41LTIuNSAyLjUtMi41LTIuNS0yLjUgMi41TDYgMTRsLTIuNSAyLjV6Ii8+PC9zdmc+)
-![Water Resources](https://img.shields.io/badge/Water_Resources-00838F?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyYy01LjMzIDQuNTUtOCA4LjQ4LTggMTEuOCAwIDQuOTggMy44IDkuMiA4IDkuMnM4LTQuMjIgOC05LjJjMC0zLjMyLTIuNjctNy4yNS04LTExLjh6bTAgMThjLTMuMzUgMC02LTIuNTctNi02LjIgMC0yLjM0IDEuOTUtNS40NCA2LTkuMTQgNC4wNSAzLjcgNiA2LjggNiA5LjE0IDAgMy42My0yLjY1IDYuMi02IDYuMnptLTQuMTctNi4zMmMuMzctLjgxLjg4LTEuNTQgMS40Ny0yLjEzbC44MSAxLjQ3Yy0uMTcuMi0uMjQuMy0uNDYuNTgtLjI2LjM0LS40Ni43LS42MSAxLjA2bC0xLjIxLS45OHptMi40LTQuNTRjLjQ2LS4zNi45Ni0uNjUgMS40OC0uODdsLjY2IDEuNTljLS4zNi4xNS0uNzEuMzQtMS4wNC41N2wtMS4xLTEuMjl6Ii8+PC9zdmc+)
-![Agricultural Ecosystems](https://img.shields.io/badge/Agricultural_Ecosystems-558B2F?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xNy44IDguMDJjLS41NC0uNzctMS4wOC0xLjA5LTEuOC0xLjAyLS43MS4wOC0xLjQyLjQ4LTEuODIuOTgtLjc4IDEuMDctMS42MSAyLjA5LTIuMTcgMy4xOC0uNTYgMS4wOS0uOTQgMi4zNy0uOTQgMy4zNHYxaDJWMTRjMC0uOC4yOS0xLjk0Ljc5LTIuOTQuMjYtLjUyLjYtMS4wNC45OC0xLjUzLjMzLS40Mi43Ny0uODEgMS4xOS0uOTcuNDItLjE2Ljg4LS4wOCAxLjI1LjM3LjQzLjUyLjU4IDEuMzMuNTMgMi4wNy0uMSAxLjU1LS45MiAzLTEuOTMgNC0uNTcuNTYtMS4yMy45Ny0xLjgxIDEuMTdWMTZIMTV2NS41YzAgLjU1LS40NS41LS41LjVIOS41Yy0uMDUgMC0uNS0uMDUtLjUtLjVWMThIOFYxNS41YzAtLjU1LjQ1LTEgMS0xaDN2LTFjMC0uNzUuMjItMi4wMi43MS0yLjk4LjQ3LS45MiAxLjIxLTEuNzkgMS43OS0yLjQ3LjMyLS4zOC42OC0uNzYgMS4wOS0xLjA0LjI2LS4xOC41NC0uMzQuODMtLjQzLjE1LS4wNS4zLS4wOC40NS0uMSAyLjEzLS4yIDMuOTMgMS4yIDQuNDMgMy4yMi40MiAxLjY3LjA1IDMuNDctLjczIDQuOTItLjc5IDEuNDYtMi4wMiAyLjY0LTMuMjcgMy4zOFYxOGgtMXYzLjVjMCAuNTUtLjQ1IDEtMSAxaC0xLjVjLS41NSAwLTEtLjQ1LTEtMVYxOUgxM3YtMi41YzAtLjU1LjQ1LTEgMS0xaDJ2LTEuMTdjLjk1LS41MiAxLjk1LTEuMjUgMi43MS0yLjIyLjktMS4xNCAxLjQtMi42NiAxLjE5LTQuMDktLjIxLTEuNDMtMS4xLTIuNTUtMi4xLTMuMDd6Ii8+PC9zdmc+)
-
-</div>
-
----
-
-## 📈 Metrics
-
-<p align="center">
-  <img src="https://img.shields.io/badge/H--Index-20-blue?style=for-the-badge" alt="H-Index"/>
-  <img src="https://img.shields.io/badge/Citations-1,821-green?style=for-the-badge" alt="Citations"/>
-  <img src="https://img.shields.io/badge/Publications-50+-orange?style=for-the-badge" alt="Publications"/>
-  <img src="https://img.shields.io/badge/i10--Index-30-a855f7?style=for-the-badge" alt="i10-Index"/>
-  <br>
-  <img src="https://img.shields.io/badge/REPOSITORIES-42-0891b2?style=for-the-badge&logo=github&labelColor=555" alt="Repositories"/>
-  <img src="https://img.shields.io/badge/PRIVATE_REPOS-28-dc2626?style=for-the-badge&logo=github&labelColor=555" alt="Private Repos"/>
-</p>
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="./assets/github-stats.svg" alt="GitHub Stats" height="195"/>
-  <img src="./assets/top-langs.svg" alt="Most Used Languages" height="195"/>
-</p>
-
-<p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com/?user=ductran27&theme=tokyonight&hide_border=true&background=1a1b27&ring=a855f7&fire=a855f7&currStreakLabel=a855f7" alt="GitHub Streak"/></a>
-</p>
-
-### 🚀 Recent Activity
-
-<div align="center">
-<p style="font-size: 1.1em;">
-
-🏛️ <b>USDA-ARS</b>: Agricultural ecosystem modeling for water resources & food production in western US<br>
-🌊 <b>National Water Center</b>: Summer Fellow for flood forecasting & water resource modeling (2024)<br>
-🏆 <b>NASA/AGU</b>: Winner of Michael H. Freilich Student Data Visualization Competition<br>
-🛰️ <b>Satellite Hydrology</b>: Building NASA SWOT, PACE & NOAA NWM analysis tools<br>
-🔧 <b>Open Source</b>: Developing hydrological toolkits (LISF, PySWATCal, USGS Streamflow)
-
-</p>
-</div>
-
----
-
-## 🎓 Education
-
-<div align="center">
-
-| Degree | Institution | Focus |
-|:------:|:-----------:|:-----:|
-| ③ **Ph.D.** Civil Engineering | 🏛️ University of Virginia | Hydroinformatics & Remote Sensing |
-| ② **M.Sc.** Hydroinformatics | 🌍 Erasmus Mundus (5 Countries) | Hydroinformatics & Water Resources Management |
-| ① **B.Eng.** Hydraulic Engineering | 🏫 University of Danang | Water Resources Engineering |
-
-</div>
-
----
-
-## 🤝 Connect
-
-<div align="center">
-
-[![Website](https://img.shields.io/badge/🌐_Website-ductran96.com-C5A059?style=for-the-badge&labelColor=2b2b2b)](https://ductran96.com)
-[![Google Scholar](https://img.shields.io/badge/📚_Scholar-Publications-4285F4?style=for-the-badge&labelColor=2b2b2b)](https://scholar.google.com/citations?user=tIcTCNgAAAAJ&hl=en&oi=ao)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge&labelColor=2b2b2b)](https://www.linkedin.com/in/thanh-nhan-duc-tran/)
-<br>
-[![Email](https://img.shields.io/badge/📧_Email-Contact-D14836?style=for-the-badge&labelColor=2b2b2b)](mailto:duc.dut.wr@gmail.com)
-[![ORCID](https://img.shields.io/badge/🆔_ORCID-Profile-A6CE39?style=for-the-badge&labelColor=2b2b2b)](https://orcid.org/0000-0001-8478-5893)
-![Location](https://img.shields.io/badge/📍_Location-Texas,_USA-17A2B8?style=for-the-badge&labelColor=2b2b2b)
-
-</div>
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ductran27&style=flat-square&color=0366d6" alt="Profile Views"/>
-</p>
+- **Ph.D.** Civil Engineering, University of Virginia
+- **M.Sc.** Hydroinformatics, Erasmus Mundus (five countries)
+- **B.Eng.** Hydraulic Engineering, University of Danang
+- Winner, NASA and AGU Michael H. Freilich Student Data Visualization Competition
+- Summer Fellow, NOAA National Water Center (2024)

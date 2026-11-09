@@ -1,7 +1,7 @@
 name: Update profile
 
-# Google Scholar badges, GitHub stats cards (assets/) and repository badges of
-# README.md, four times a day.
+# Google Scholar and GitHub numbers of the profile (scripts/profile.json) and
+# the images of README.md drawn from them (assets/), four times a day.
 
 on:
   schedule:
@@ -31,13 +31,13 @@ jobs:
 
       - name: Install dependencies
         # bibtexparser 2 removed the module that scholarly imports
-        run: pip install "scholarly==1.7.11" "bibtexparser==1.4.4"
+        run: pip install "scholarly==1.7.11" "bibtexparser==1.4.4" "fonttools==4.51.0"
 
       - name: Google Scholar metrics
         run: python scripts/update_metrics.py
         timeout-minutes: 5
 
-      - name: GitHub cards and repository counts
+      - name: GitHub numbers and images
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets
+          git add README.md assets scripts/profile.json
           if git diff --staged --quiet; then
             echo "nothing changed"
             exit 0
