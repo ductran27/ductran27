@@ -105,7 +105,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/H--Index-20-blue?style=for-the-badge" alt="H-Index"/>
   <img src="https://img.shields.io/badge/Citations-1,821-green?style=for-the-badge" alt="Citations"/>
-  <img src="https://img.shields.io/badge/Publications-35+-orange?style=for-the-badge" alt="Publications"/>
+  <img src="https://img.shields.io/badge/Publications-50+-orange?style=for-the-badge" alt="Publications"/>
   <img src="https://img.shields.io/badge/i10--Index-30-a855f7?style=for-the-badge" alt="i10-Index"/>
   <br>
   <img src="https://img.shields.io/badge/REPOSITORIES-42-0891b2?style=for-the-badge&logo=github&labelColor=555" alt="Repositories"/>
