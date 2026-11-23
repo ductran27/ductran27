@@ -7,39 +7,39 @@
   "papers": "50+",
   "repositories": 42,
   "github": {
-    "commits": 6744,
-    "stars": 71,
-    "repos": 13,
+    "commits": 6643,
+    "stars": 72,
+    "repos": 14,
     "followers": 19,
     "languages": [
       [
         "Python",
-        79.6,
+        74.8,
         "#3572A5"
       ],
       [
         "Swift",
-        9.2,
+        8.6,
         "#F05138"
       ],
       [
+        "HTML",
+        6.3,
+        "#e34c26"
+      ],
+      [
         "Shell",
-        4.4,
+        4.1,
         "#89e051"
       ],
       [
         "Rust",
-        3.9,
+        3.7,
         "#dea584"
       ],
       [
-        "JavaScript",
-        1.0,
-        "#f1e05a"
-      ],
-      [
         "Other",
-        1.9,
+        2.5,
         "#8b949e"
       ]
     ]
